@@ -1,0 +1,15 @@
+.projects {
+    margin-top: 2rem;
+
+    @media screen and (min-width: 600px) {
+        margin: 2rem auto 0 auto;
+        max-width: 80%;
+
+        .projectCards {
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+        }
+    }
+}

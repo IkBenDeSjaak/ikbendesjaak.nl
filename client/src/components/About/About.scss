@@ -1,0 +1,47 @@
+.about {
+    margin-top: 3rem;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .information {
+            margin-top: 1rem;
+        }
+
+        @media screen and (min-width: 900px) {
+            .information {
+                margin-top: unset;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            flex-direction: unset;
+        }
+    }
+
+    .skillsList {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(60px, 280px));
+
+        li span {
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    img {
+        width: 8rem;
+
+        @media screen and (min-width: 900px) {
+            margin-right: 1rem;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        max-width: 50rem;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto 0 auto;
+    }
+}
