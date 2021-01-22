@@ -23,7 +23,7 @@ const SideDrawer = (props) => {
                         </span>
                     </li>
                     <li onClick={props.closeDrawer}>
-                        <a className="resume" href="resume.pdf">
+                        <a className="resume" href="/">
                             Resume
                         </a>
                     </li>
