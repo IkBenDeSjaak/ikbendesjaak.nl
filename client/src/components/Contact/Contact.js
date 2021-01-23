@@ -11,7 +11,7 @@ function Contact() {
             <Title title="CONTACT" />
             <div className="links">
                 <div className="link">
-                    <a href="mailto:koksjaak99@gmail.com">
+                    <a href="mailto:sjaakrest9@gmail.com">
                         <MailIcon />
                     </a>
                 </div>
