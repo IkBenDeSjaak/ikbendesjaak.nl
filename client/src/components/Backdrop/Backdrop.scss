@@ -1,9 +1,10 @@
 .backdrop {
     position: fixed;
+    height: 100vh;
+    min-height: -webkit-fill-available;
     width: 100%;
     top: 0;
     left: 0;
-    height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 100;
 }
