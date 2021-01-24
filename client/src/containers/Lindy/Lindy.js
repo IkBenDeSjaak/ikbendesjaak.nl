@@ -5,7 +5,23 @@ import "./Lindy.scss";
 const Lindy = () => {
     const [hearts, setHearts] = useState([]);
 
-    const onMouseMove = (e) => {
+    const isMobile = () => {
+        const toMatch = [
+            /Android/i,
+            /webOS/i,
+            /iPhone/i,
+            /iPad/i,
+            /iPod/i,
+            /BlackBerry/i,
+            /Windows Phone/i,
+        ];
+
+        return toMatch.some((toMatchItem) => {
+            return navigator.userAgent.match(toMatchItem);
+        });
+    };
+
+    const onEvent = (e) => {
         const newHeart = {
             top: `${e.clientY - 60}px`,
             left: `${e.clientX - 60}px`,
@@ -27,7 +43,12 @@ const Lindy = () => {
     });
 
     return (
-        <div className="lindy" id="lindy" onMouseMove={onMouseMove}>
+        <div
+            className="lindy"
+            id="lindy"
+            onClick={isMobile() ? onEvent : () => {}}
+            onMouseMove={isMobile() ? () => {} : onEvent}
+        >
             {children}
             <div></div>
         </div>
