@@ -1,26 +1,39 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./SideDrawer.scss";
 
 const SideDrawer = (props) => {
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     return (
         <div className={props.isShown ? "side_drawer open" : "side_drawer"}>
             <nav>
                 <ul>
-                    <li onClick={props.closeDrawer}>
-                        <span className="underline">
-                            <HashLink to="/#about">About</HashLink>
-                        </span>
+                    <li
+                        onClick={() => {
+                            props.closeDrawer();
+                            scrollToTop();
+                        }}
+                    >
+                        <Link to="/">Home</Link>
                     </li>
                     <li onClick={props.closeDrawer}>
-                        <span className="underline">
-                            <HashLink to="/#mywork">My Work</HashLink>
-                        </span>
+                        <HashLink smooth to="/#about">
+                            About
+                        </HashLink>
                     </li>
                     <li onClick={props.closeDrawer}>
-                        <span className="underline">
-                            <HashLink to="/#contact">Contact</HashLink>
-                        </span>
+                        <HashLink smooth to="/#mywork">
+                            My Work
+                        </HashLink>
+                    </li>
+                    <li onClick={props.closeDrawer}>
+                        <HashLink smooth to="/#contact">
+                            Contact
+                        </HashLink>
                     </li>
                     <li onClick={props.closeDrawer}>
                         <a className="resume" href="/">
