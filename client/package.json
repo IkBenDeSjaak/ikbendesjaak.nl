@@ -15,6 +15,7 @@
         "react-router-dom": "^5.1.2",
         "react-router-hash-link": "^2.1.0",
         "react-scripts": "^3.4.0",
+        "react-swipeable": "^6.0.1",
         "sass": "^1.32.5"
     },
     "scripts": {

@@ -1,6 +1,7 @@
 // react and react-router
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
+import { useSwipeable } from "react-swipeable";
 
 // components
 import Nav from "../Nav/Nav";
@@ -17,6 +18,10 @@ import "./App.scss";
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
+    const handlers = useSwipeable({
+        onSwipedRight: () => setSideDrawerOpen(true),
+        onSwipedLeft: () => setSideDrawerOpen(false),
+    });
 
     const toggleDrawerClickHandler = () => {
         setSideDrawerOpen(true);
@@ -34,7 +39,7 @@ const App = () => {
 
     return (
         <Router>
-            <div className="App">
+            <div {...handlers} className="App">
                 <Nav toggleDrawer={toggleDrawerClickHandler} />
                 <SideDrawer
                     isShown={sideDrawerOpen}
