@@ -5,22 +5,23 @@ import styles from "./Compliments.module.scss";
 import complimentsData from "./compliments.json";
 
 const Compliments = () => {
-    const [compliments, setCompliments] = useState([]);
+    const [compliments] = useState([...complimentsData]);
+    const [currentCompliment, setCurrentCompliment] = useState("");
 
     useEffect(() => {
-        setCompliments([...complimentsData]);
-    }, []);
+        const generateCompliment = () => {
+            const number = Math.floor(Math.random() * compliments.length);
+            return compliments[number];
+        };
 
-    const generateCompliment = () => {
-        const number = Math.floor(Math.random() * compliments.length);
-        return compliments[number];
-    };
+        setCurrentCompliment(generateCompliment());
+    }, [compliments]);
 
     return (
         <div className={styles.compliments}>
             <div className={styles.centered}>
                 <h1>Hello sweet person,</h1>
-                <h1>{generateCompliment()}</h1>
+                <h1>{currentCompliment}</h1>
             </div>
         </div>
     );
