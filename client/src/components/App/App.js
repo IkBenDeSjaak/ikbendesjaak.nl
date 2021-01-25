@@ -1,9 +1,7 @@
-// react and react-router
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 
-// components
 import Nav from "../Nav/Nav";
 import Backdrop from "../Backdrop/Backdrop";
 import SideDrawer from "../SideDrawer/SideDrawer";
@@ -13,7 +11,6 @@ import Lindy from "../../containers/Lindy/Lindy";
 import Compliments from "../../containers/Compliments/Compliments";
 import NotFound from "../../containers/NotFound/NotFound";
 
-// styles
 import "./App.scss";
 
 const App = () => {
