@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "@material-ui/core/Icon";
-import "./ProjectCard.scss";
+import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props) => {
     let gitHubIcon = null;
@@ -30,21 +30,21 @@ const ProjectCard = (props) => {
     const tools = props.stack.map((tool) => <span key={tool}>{tool}</span>);
 
     return (
-        <div className="projectCard">
-            <div className="imageContainer">
+        <div className={styles.projectCard}>
+            <div className={styles.imageContainer}>
                 <img src={props.projectImgAddress} alt={props.projectTitle} />
             </div>
-            <div className="info">
-                <h3 className="projectTitle">
+            <div className={styles.info}>
+                <h3 className={styles.projectTitle}>
                     <span>{props.projectTitle}</span>
                 </h3>
-                <div className="tools">
+                <div className={styles.tools}>
                     <p>{tools}</p>
                 </div>
-                <div className="description">
+                <div className={styles.description}>
                     <p>{props.projectDescription}</p>
                 </div>
-                <div className="links">
+                <div className={styles.links}>
                     {gitHubIcon}
                     {demoIcon}
                 </div>

@@ -11,7 +11,7 @@ import Lindy from "../../containers/Lindy/Lindy";
 import Compliments from "../../containers/Compliments/Compliments";
 import NotFound from "../../containers/NotFound/NotFound";
 
-import "./App.scss";
+import styles from "./App.module.scss";
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -36,14 +36,14 @@ const App = () => {
 
     return (
         <Router>
-            <div {...handlers} className="App">
+            <div {...handlers} className={styles.app}>
                 <Nav toggleDrawer={toggleDrawerClickHandler} />
                 <SideDrawer
                     isShown={sideDrawerOpen}
                     closeDrawer={closeDrawerClickHandler}
                 />
                 {backdrop}
-                <div className="fadein">
+                <div className={styles.fadein}>
                     <Switch>
                         <Route exact path="/" component={Home}></Route>
                         <Route path="/lindy" component={Lindy}></Route>

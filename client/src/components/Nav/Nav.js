@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import DrawerToggleButton from "../DrawerToggleButton/DrawerToggleButton";
-import "./Nav.scss";
+import styles from "./Nav.module.scss";
 
 function Nav(props) {
     const scrollToTop = () => {
@@ -10,20 +10,20 @@ function Nav(props) {
     };
 
     return (
-        <div className="nav">
-            <header className="toolbar shadow">
-                <nav className="navbar">
-                    <div className="burger">
+        <div className={styles.nav}>
+            <header className={`${styles.toolbar} ${styles.shadow}`}>
+                <nav className={styles.navbar}>
+                    <div className={styles.burger}>
                         <DrawerToggleButton click={props.toggleDrawer} />
                     </div>
-                    <div className="logo">
+                    <div className={styles.logo}>
                         <div onClick={scrollToTop}>
                             <Link to="/">Sjaak Kok</Link>
-                            <div className="underline"></div>
+                            <div className={styles.underline}></div>
                         </div>
                     </div>
-                    <div className="spacer" />
-                    <div className="nav_items">
+                    <div className={styles.spacer} />
+                    <div className={styles.nav_items}>
                         <ul>
                             <li>
                                 <HashLink smooth to="/#about">
@@ -41,7 +41,7 @@ function Nav(props) {
                                 </HashLink>
                             </li>
                             <li>
-                                <a className="resume" href="/">
+                                <a className={styles.resume} href="/">
                                     Resume
                                 </a>
                             </li>

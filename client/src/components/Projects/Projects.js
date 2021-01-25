@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Projects.scss";
+import styles from "./Projects.module.scss";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import Title from "../shared/Title/Title";
 
@@ -27,9 +27,9 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className="projects" id="mywork">
+        <div className={styles.projects} id="mywork">
             <Title title="MY WORK" />
-            <div className="projectCards">{projects}</div>
+            <div className={styles.projectCards}>{projects}</div>
         </div>
     );
 };

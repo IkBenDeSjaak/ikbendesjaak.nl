@@ -1,16 +1,16 @@
 import React from "react";
 
-import "./About.scss";
+import styles from "./About.module.scss";
 
 import Title from "../shared/Title/Title";
 
 function About() {
     return (
-        <div className="about" id="about">
+        <div className={styles.about} id="about">
             <Title title="ABOUT ME" />
-            <div className="content">
+            <div className={styles.content}>
                 <img src="character.png" alt="character" />
-                <div className="information">
+                <div className={styles.information}>
                     <p>
                         I'm a beginning web developer from the Netherlands. I'm
                         currently studying Information and Communication
@@ -25,7 +25,7 @@ function About() {
                             These are some technologies I've been working with:
                         </strong>
                     </p>
-                    <ul className="skillsList">
+                    <ul className={styles.skillsList}>
                         <li>
                             <span>JavaScript</span>
                         </li>

@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./Title.scss";
+import styles from "./Title.module.scss";
 
 function Title(props) {
     return (
-        <div className="title">
+        <div className={styles.title}>
             <h2>{props.title}</h2>
         </div>
     );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import "./SideDrawer.scss";
+import styles from "./SideDrawer.module.scss";
 
 const SideDrawer = (props) => {
     const scrollToTop = () => {
@@ -9,7 +9,13 @@ const SideDrawer = (props) => {
     };
 
     return (
-        <div className={props.isShown ? "side_drawer open" : "side_drawer"}>
+        <div
+            className={
+                props.isShown
+                    ? `${styles.side_drawer} ${styles.open}`
+                    : styles.side_drawer
+            }
+        >
             <nav>
                 <ul>
                     <li
@@ -36,7 +42,7 @@ const SideDrawer = (props) => {
                         </HashLink>
                     </li>
                     <li onClick={props.closeDrawer}>
-                        <a className="resume" href="/">
+                        <a className={styles.resume} href="/">
                             Resume
                         </a>
                     </li>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { isMobile } from "react-device-detect";
 
-import "./Lindy.scss";
+import styles from "./Lindy.module.scss";
 
 const Lindy = () => {
     const [hearts, setHearts] = useState([]);
@@ -18,7 +18,7 @@ const Lindy = () => {
     let children = hearts.map((heart, i) => {
         return (
             <img
-                className="heart"
+                className={styles.heart}
                 key={i}
                 alt={"heart" + i}
                 style={{ top: heart.top, left: heart.left }}
@@ -29,7 +29,7 @@ const Lindy = () => {
 
     return (
         <div
-            className="lindy"
+            className={styles.lindy}
             id="lindy"
             onClick={
                 isMobile

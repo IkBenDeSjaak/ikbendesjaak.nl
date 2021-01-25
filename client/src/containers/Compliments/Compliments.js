@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./Compliments.scss";
+import styles from "./Compliments.module.scss";
 
 import complimentsData from "./compliments.json";
 
@@ -17,8 +17,8 @@ const Compliments = () => {
     };
 
     return (
-        <div className="compliments">
-            <div className="centered">
+        <div className={styles.compliments}>
+            <div className={styles.centered}>
                 <h1>Hello sweet person,</h1>
                 <h1>{generateCompliment()}</h1>
             </div>
