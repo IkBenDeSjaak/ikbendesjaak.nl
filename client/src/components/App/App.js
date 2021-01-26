@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import { isTablet } from "react-device-detect";
 
@@ -20,6 +20,14 @@ const App = () => {
         onSwipedRight: () => setSideDrawerOpen(true),
         onSwipedLeft: () => setSideDrawerOpen(false),
     });
+
+    useEffect(() => {
+        if (window.location.hash) {
+            const id = window.location.hash.replace("#", "");
+            const element = document.getElementById(id);
+            element.scrollIntoView();
+        }
+    }, []);
 
     const toggleDrawerClickHandler = () => {
         setSideDrawerOpen(true);
