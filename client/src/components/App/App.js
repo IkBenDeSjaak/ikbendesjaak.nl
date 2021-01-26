@@ -22,10 +22,18 @@ const App = () => {
     });
 
     useEffect(() => {
-        if (window.location.hash) {
-            const id = window.location.hash.replace("#", "");
+        const { hash } = window.location;
+
+        if (hash) {
+            const id = hash.replace("#", "");
             const element = document.getElementById(id);
-            element.scrollIntoView();
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({
+                        behavior: "smooth",
+                    });
+                }, 100);
+            }
         }
     }, []);
 
