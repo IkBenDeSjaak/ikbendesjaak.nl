@@ -19,9 +19,11 @@ const Compliments = () => {
 
     return (
         <div className={styles.compliments}>
-            <div className={styles.centered}>
-                <h1>Hello sweet person,</h1>
-                <h1>{currentCompliment}</h1>
+            <div className={styles.parent}>
+                <div className={styles.centered}>
+                    <h1>Hello sweet person,</h1>
+                    <h1>{currentCompliment}</h1>
+                </div>
             </div>
         </div>
     );
