@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
+import { isTablet } from "react-device-detect";
 
 import Nav from "../Nav/Nav";
 import Backdrop from "../Backdrop/Backdrop";
@@ -28,6 +29,14 @@ const App = () => {
         setSideDrawerOpen(false);
     };
 
+    const dropHandlers = () => {
+        if (isTablet) {
+            return;
+        } else {
+            return { ...handlers };
+        }
+    };
+
     let backdrop;
 
     if (sideDrawerOpen) {
@@ -36,7 +45,7 @@ const App = () => {
 
     return (
         <Router>
-            <div {...handlers} className={styles.app}>
+            <div {...dropHandlers()} className={styles.app}>
                 <Nav toggleDrawer={toggleDrawerClickHandler} />
                 <SideDrawer
                     isShown={sideDrawerOpen}
