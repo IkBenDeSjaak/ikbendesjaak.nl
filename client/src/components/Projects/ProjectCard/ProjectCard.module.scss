@@ -7,14 +7,7 @@
     padding: 1.5rem;
     top: 0;
     transition: top ease 0.3s;
-
-    @media screen and (min-width: 900px) {
-        position: relative;
-
-        .description {
-            margin-bottom: 2.5rem;
-        }
-    }
+    position: relative;
 
     .imageContainer {
         height: 19rem;
@@ -27,50 +20,52 @@
         object-fit: cover;
     }
 
-    .tools {
-        span {
-            color: rgb(111, 111, 111);
+    .info {
+        .tools {
+            span {
+                color: rgb(111, 111, 111);
+            }
         }
-    }
 
-    .links {
-        display: flex;
+        .description {
+            margin-bottom: 2rem;
+        }
 
-        @media screen and (min-width: 900px) {
+        .links {
+            display: flex;
+
             position: absolute;
             bottom: 1rem;
-        }
 
-        a {
-            margin-right: 1rem;
-            text-decoration: none;
-            align-items: center;
-            padding: 0.25rem 0.5rem;
-            border-style: solid;
-            border-color: $primary-color;
-            background-color: $secondary-color;
-            color: $primary-color;
-            width: 5rem;
-            transition: 0.2s;
+            a {
+                margin-right: 1rem;
+                text-decoration: none;
+                align-items: center;
+                padding: 0.25rem 0.5rem;
+                border-style: solid;
+                border-color: $primary-color;
+                background-color: $secondary-color;
+                color: $primary-color;
+                width: 5rem;
+                transition: 0.2s;
 
-            span {
-                margin-right: 0.2rem;
-                font-size: 0.9rem;
+                span {
+                    margin-right: 0.2rem;
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media screen and (min-width: 900px) {
+                a:hover {
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                }
             }
         }
     }
 }
 
 @media screen and (min-width: 900px) {
-    .projectCard {
-        .links {
-            a:hover {
-                background-color: $primary-color;
-                color: $secondary-color;
-            }
-        }
-    }
-
     .projectCard:hover {
         top: -5px;
     }
