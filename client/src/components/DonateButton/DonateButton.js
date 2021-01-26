@@ -16,7 +16,7 @@ function DonateButton() {
                 />
                 <input
                     type="image"
-                    src="button_donate.png"
+                    src="donate_button.svg"
                     border="0"
                     name="submit"
                     title="PayPal - The safer, easier way to pay online!"

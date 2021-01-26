@@ -2,6 +2,7 @@ import React from "react";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Title from "../shared/Title/Title";
+// import DonateButton from "../DonateButton/DonateButton";
 
 import styles from "./Contact.module.scss";
 
@@ -25,6 +26,7 @@ function Contact() {
                     </a>
                 </div>
             </div>
+            {/* <DonateButton /> */}
         </div>
     );
 }
