@@ -17,7 +17,11 @@ import styles from "./App.module.scss";
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
     const handlers = useSwipeable({
-        onSwipedRight: () => setSideDrawerOpen(true),
+        onSwipedRight: (SwipeEventData) => {
+            if (SwipeEventData.initial[0] < 100) {
+                setSideDrawerOpen(true);
+            }
+        },
         onSwipedLeft: () => setSideDrawerOpen(false),
     });
 
