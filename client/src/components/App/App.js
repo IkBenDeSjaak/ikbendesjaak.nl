@@ -18,7 +18,6 @@ const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
     const handlers = useSwipeable({
         onSwipedRight: (SwipeEventData) => {
-            console.log(SwipeEventData.initial[0]);
             if (
                 SwipeEventData.initial[0] < 110 ||
                 (isTablet && SwipeEventData.initial[0] < 220)
