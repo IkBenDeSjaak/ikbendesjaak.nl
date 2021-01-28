@@ -18,7 +18,11 @@ const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
     const handlers = useSwipeable({
         onSwipedRight: (SwipeEventData) => {
-            if (SwipeEventData.initial[0] < 100) {
+            console.log(SwipeEventData.initial[0]);
+            if (
+                SwipeEventData.initial[0] < 110 ||
+                (isTablet && SwipeEventData.initial[0] < 220)
+            ) {
                 setSideDrawerOpen(true);
             }
         },
@@ -49,13 +53,13 @@ const App = () => {
         setSideDrawerOpen(false);
     };
 
-    const dropHandlers = () => {
-        if (isTablet) {
-            return;
-        } else {
-            return { ...handlers };
-        }
-    };
+    // const dropHandlers = () => {
+    //     if (isTablet) {
+    //         return;
+    //     } else {
+    //         return { ...handlers };
+    //     }
+    // };
 
     let backdrop;
 
@@ -65,7 +69,7 @@ const App = () => {
 
     return (
         <Router>
-            <div {...dropHandlers()} className={styles.app}>
+            <div {...handlers} className={styles.app}>
                 <Nav toggleDrawer={toggleDrawerClickHandler} />
                 <SideDrawer
                     isShown={sideDrawerOpen}
