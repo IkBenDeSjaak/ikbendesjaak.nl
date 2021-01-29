@@ -26,7 +26,8 @@
         grid-template-columns: repeat(2, minmax(60px, 280px));
 
         li span {
-            color: rgba(0, 0, 0, 0.6);
+            // color: rgba(0, 0, 0, 0.6);
+            color: var(--skills-color);
         }
     }
 

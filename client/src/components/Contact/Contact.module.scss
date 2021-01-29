@@ -23,7 +23,8 @@
         width: 3rem;
         height: 3rem;
         border-radius: 50%;
-        background-color: $secondary-color;
+        // background-color: $secondary-color;
+        background-color: var(--link-background);
 
         a {
             color: $primary-color;
@@ -37,7 +38,8 @@
 
         @media screen and (min-width: 600px) {
             a:hover {
-                color: $secondary-color;
+                // color: $secondary-color;
+                color: var(--link-hover-center);
             }
         }
     }

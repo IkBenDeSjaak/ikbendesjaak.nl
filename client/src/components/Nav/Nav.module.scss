@@ -6,7 +6,8 @@
         width: 100%;
         top: 0;
         left: 0;
-        background: $secondary-color;
+        // background: $secondary-color;
+        background: var(--background-color);
         height: 4rem;
         z-index: 100;
     }
@@ -35,7 +36,8 @@
                     text-decoration: none;
                     font-weight: 600;
                     font-size: 1.7rem;
-                    color: rgba(0, 0, 0, 0.84);
+                    // color: rgba(0, 0, 0, 0.84);
+                    color: var(--text-color);
                 }
 
                 // .underline {
@@ -110,12 +112,14 @@
                 a {
                     font-weight: 600;
                     text-decoration: none;
-                    color: rgba(0, 0, 0, 0.84);
+                    // color: rgba(0, 0, 0, 0.84);
+                    color: var(--text-color);
                 }
 
                 .resume {
                     transition: 0.3s;
                     color: $primary-color;
+                    background-color: var(--resume-nav-background);
                     font-weight: 600;
                     padding: 0.5rem 0.8rem;
                     border-width: 2px;

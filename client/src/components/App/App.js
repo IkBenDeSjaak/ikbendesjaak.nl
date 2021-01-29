@@ -13,9 +13,11 @@ import Compliments from "../../containers/Compliments/Compliments";
 import NotFound from "../../containers/NotFound/NotFound";
 
 import styles from "./App.module.scss";
+import "../../themes.scss";
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
+    const [theme, setTheme] = useState("light");
     const handlers = useSwipeable({
         onSwipedRight: (SwipeEventData) => {
             if (
@@ -68,7 +70,7 @@ const App = () => {
 
     return (
         <Router>
-            <div {...handlers} className={styles.app}>
+            <div {...handlers} className={`${styles.app} ${theme}`}>
                 <Nav toggleDrawer={toggleDrawerClickHandler} />
                 <SideDrawer
                     isShown={sideDrawerOpen}

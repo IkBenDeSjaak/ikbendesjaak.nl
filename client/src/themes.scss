@@ -1,0 +1,35 @@
+.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --card-color: #ffffff;
+    --card-link-background: #ffffff;
+    --subtitle-color: rgba(0, 0, 0, 0.6);
+    --skills-color: rgba(0, 0, 0, 0.6);
+    --stack-color: rgb(111, 111, 111);
+    --link-background: #ffffff;
+    --link-hover-center: #ffffff;
+    --footer-text: rgb(74, 74, 74);
+    --resume-nav-background: #ffffff;
+    --drawer-toggle-color: rgba(0, 0, 0, 0.54);
+    --sidedrawer-background: #ffffff;
+    --sidedrawer-text: rgba(0, 0, 0, 0.84);
+    --sidedrawer-resume-background: #ffffff;
+}
+
+.dark {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --card-color: #292828;
+    --card-link-background: #000000;
+    --subtitle-color: #ffffff;
+    --skills-color: #ffffff;
+    --stack-color: #ffffff;
+    --link-background: #000000;
+    --link-hover-center: #000000;
+    --footer-text: #ffffff;
+    --resume-nav-background: #000000;
+    --drawer-toggle-color: #ffffff;
+    --sidedrawer-background: #413f3f;
+    --sidedrawer-text: #ffffff;
+    --sidedrawer-resume-background: #000000;
+}
