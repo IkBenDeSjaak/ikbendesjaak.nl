@@ -6,7 +6,11 @@ import styles from "./DrawerToggleButton.module.scss";
 
 const DrawerToggleButton = (props) => (
     <div className={styles.drawerbutton}>
-        <IconButton className={styles.button} onClick={props.click}>
+        <IconButton
+            className={styles.button}
+            aria-label="sidedrawer toggle button"
+            onClick={props.click}
+        >
             <Icon className="fas fa-bars" />
         </IconButton>
     </div>

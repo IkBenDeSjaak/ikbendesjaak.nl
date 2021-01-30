@@ -6,7 +6,11 @@ import styles from "./DarkModeToggleButton.module.scss";
 
 const DarkModeToggleButton = (props) => (
     <div className={styles.darkmodebutton}>
-        <IconButton className={styles.button} onClick={props.click}>
+        <IconButton
+            className={styles.button}
+            aria-label="darkmode toggle button"
+            onClick={props.click}
+        >
             <Brightness2Icon />
         </IconButton>
     </div>
