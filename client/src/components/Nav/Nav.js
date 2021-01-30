@@ -42,9 +42,9 @@ function Nav(props) {
                                     </HashLink>
                                 </li>
                                 <li>
-                                    <a className={styles.resume} href="/">
+                                    <Link className={styles.resume} to="/">
                                         Resume
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
