@@ -54,6 +54,14 @@ const App = () => {
         setSideDrawerOpen(false);
     };
 
+    const toggleDarkMode = () => {
+        if (theme === "light") {
+            setTheme("dark");
+        } else {
+            setTheme("light");
+        }
+    };
+
     // const dropHandlers = () => {
     //     if (isTablet) {
     //         return;
@@ -71,7 +79,10 @@ const App = () => {
     return (
         <Router>
             <div {...handlers} className={`${styles.app} ${theme}`}>
-                <Nav toggleDrawer={toggleDrawerClickHandler} />
+                <Nav
+                    toggleDrawer={toggleDrawerClickHandler}
+                    toggleDarkMode={toggleDarkMode}
+                />
                 <SideDrawer
                     isShown={sideDrawerOpen}
                     closeDrawer={closeDrawerClickHandler}

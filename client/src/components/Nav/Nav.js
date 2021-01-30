@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import DrawerToggleButton from "../DrawerToggleButton/DrawerToggleButton";
+import DarkModeToggleButton from "../DarkModeToggleButton/DarkModeToggleButton";
 import styles from "./Nav.module.scss";
 
 function Nav(props) {
@@ -22,30 +23,36 @@ function Nav(props) {
                             <div className={styles.underline}></div>
                         </div>
                     </div>
-                    <div className={styles.spacer} />
-                    <div className={styles.nav_items}>
-                        <ul>
-                            <li>
-                                <HashLink smooth to="/#about">
-                                    About
-                                </HashLink>
-                            </li>
-                            <li>
-                                <HashLink smooth to="/#mywork">
-                                    My Work
-                                </HashLink>
-                            </li>
-                            <li>
-                                <HashLink smooth to="/#contact">
-                                    Contact
-                                </HashLink>
-                            </li>
-                            <li>
-                                <a className={styles.resume} href="/">
-                                    Resume
-                                </a>
-                            </li>
-                        </ul>
+                    <div className={styles.rightside}>
+                        <div className={styles.nav_items}>
+                            <ul>
+                                <li>
+                                    <HashLink smooth to="/#about">
+                                        About
+                                    </HashLink>
+                                </li>
+                                <li>
+                                    <HashLink smooth to="/#mywork">
+                                        My Work
+                                    </HashLink>
+                                </li>
+                                <li>
+                                    <HashLink smooth to="/#contact">
+                                        Contact
+                                    </HashLink>
+                                </li>
+                                <li>
+                                    <a className={styles.resume} href="/">
+                                        Resume
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className={styles.darkmode}>
+                            <DarkModeToggleButton
+                                click={props.toggleDarkMode}
+                            />
+                        </div>
                     </div>
                 </nav>
             </header>

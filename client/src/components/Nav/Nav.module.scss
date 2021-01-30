@@ -7,7 +7,7 @@
         top: 0;
         left: 0;
         // background: $secondary-color;
-        background: var(--background-color);
+        background: var(--nav-background);
         height: 4rem;
         z-index: 100;
     }
@@ -37,7 +37,7 @@
                     font-weight: 600;
                     font-size: 1.7rem;
                     // color: rgba(0, 0, 0, 0.84);
-                    color: var(--text-color);
+                    color: $tertiary-color;
                 }
 
                 // .underline {
@@ -52,12 +52,12 @@
             }
         }
 
-        .nav_items {
-            display: none;
-        }
-
-        .spacer {
+        .rightside {
             width: 20%;
+
+            .nav_items {
+                display: none;
+            }
         }
     }
 
@@ -66,10 +66,6 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: nowrap;
-
-            .spacer {
-                display: none;
-            }
 
             .burger {
                 display: none;
@@ -95,41 +91,47 @@
                 }
             }
 
-            .nav_items {
-                display: block;
+            .rightside {
+                display: flex;
+                width: unset;
 
-                ul {
-                    list-style: none;
-                    margin-right: 1.5rem;
-                    padding: 0;
-                    display: flex;
-                }
+                .nav_items {
+                    display: block;
 
-                li {
-                    padding: 0 1rem;
-                }
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        display: flex;
+                    }
 
-                a {
-                    font-weight: 600;
-                    text-decoration: none;
-                    // color: rgba(0, 0, 0, 0.84);
-                    color: var(--text-color);
-                }
+                    li {
+                        padding: 0 1rem;
+                    }
 
-                .resume {
-                    transition: 0.3s;
-                    color: $primary-color;
-                    background-color: var(--resume-nav-background);
-                    font-weight: 600;
-                    padding: 0.5rem 0.8rem;
-                    border-width: 2px;
-                    border-style: solid;
-                    border-color: $primary-color;
-                }
+                    a {
+                        font-weight: 600;
+                        text-decoration: none;
+                        // color: rgba(0, 0, 0, 0.84);
+                        color: $tertiary-color;
+                    }
 
-                .resume:hover {
-                    background-color: $primary-color;
-                    color: $secondary-color;
+                    .resume {
+                        transition: 0.3s;
+                        color: $primary-color;
+                        background-color: var(--resume-nav-background);
+                        font-weight: 600;
+                        padding: 0.5rem 0.8rem;
+                        border-width: 2px;
+                        border-style: solid;
+                        border-color: $primary-color;
+                    }
+
+                    .resume:hover {
+                        // background-color: $primary-color;
+                        // color: $secondary-color;
+                        background-color: var(--resume-nav-background-hover);
+                        color: var(--resume-nav-color-hover);
+                    }
                 }
             }
         }
