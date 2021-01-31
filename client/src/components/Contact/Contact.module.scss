@@ -34,6 +34,10 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
+
+            span {
+                display: none;
+            }
         }
 
         @media screen and (min-width: 600px) {
