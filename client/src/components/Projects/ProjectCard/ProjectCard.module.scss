@@ -61,7 +61,8 @@
             @media screen and (min-width: 900px) {
                 a:hover {
                     background-color: $primary-color;
-                    color: $secondary-color;
+                    // color: $secondary-color;
+                    color: var(--card-link-text);
                 }
             }
         }
