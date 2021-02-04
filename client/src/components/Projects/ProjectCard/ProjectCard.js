@@ -32,7 +32,13 @@ const ProjectCard = (props) => {
     return (
         <div className={styles.projectCard}>
             <div className={styles.imageContainer}>
-                <img src={props.projectImgAddress} alt={props.projectTitle} />
+                <img
+                    src={props.projectImgAddress}
+                    alt={props.projectTitle}
+                    onClick={() => {
+                        window.open(props.projectImgAddress);
+                    }}
+                />
             </div>
             <div className={styles.info}>
                 <h3 className={styles.projectTitle}>
