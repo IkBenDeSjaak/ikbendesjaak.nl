@@ -1,15 +1,15 @@
 [
     {
         "title": "Quizzer",
-        "description": "The quizzer is an app you can play quizzes with. The team, the scoreboard and the host all have their own SPA.",
-        "imgAddress": "/project-images/placeholder.png",
+        "description": "The quizzer is a project where the goal was to make a pub quiz. It consists of 3 apps (the host, the scoreboard and the teams) and a server. ",
+        "imgAddress": "/project-images/quizzer.png",
         "githubLink": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]
     },
     {
         "title": "Rekenlogboek",
-        "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths.",
+        "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. A part of the app is available in Microsoft Teams. The app consists of a client and a server.",
         "imgAddress": "/project-images/rekenlogboek.png",
         "githubLink": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
         "demoLink": "",
