@@ -1,19 +1,19 @@
 [
     {
-        "title": "Quizzer",
-        "description": "The quizzer is a project where the goal was to make a pub quiz. It consists of 3 apps (the host, the scoreboard and the teams) and a server. ",
-        "imgAddress": "/project-images/quizzer.png",
-        "githubLink": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
-        "demoLink": "",
-        "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]
-    },
-    {
         "title": "Rekenlogboek",
-        "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. A part of the app is available in Microsoft Teams. The app consists of a client and a server.",
+        "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. Students fill in their logbooks on Microsoft Teams and teachers can see what their students filled in.",
         "imgAddress": "/project-images/rekenlogboek.png",
         "githubLink": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, Socket.io, Sass"]
+    },
+    {
+        "title": "Quizzer",
+        "description": "The quizzer is a project where the goal was to make a pub quiz. It consists of 3 apps (the quiz master, the team(s) and the scoreboard) and a server. The quiz master chooses questions, the teams answer the questions and the scoreboard displays the results.",
+        "imgAddress": "/project-images/quizzer.png",
+        "githubLink": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
+        "demoLink": "",
+        "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]
     },
     {
         "title": "Eenmaal Andermaal",
