@@ -2,7 +2,12 @@
     {
         "title": "Rekenlogboek",
         "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. Students fill in their logbooks on Microsoft Teams and teachers can see what their students filled in.",
-        "imgAddress": "/project-images/rekenlogboek.png",
+        "imgLinks": [
+            "/project-images/rekenlogboek.png",
+            "/project-images/rekenlogboek-600w.png",
+            "/project-images/rekenlogboek-1200w.png",
+            "/project-images/rekenlogboek-1920w.png"
+        ],
         "githubLink": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, Socket.io, Sass"]
@@ -10,7 +15,12 @@
     {
         "title": "Quizzer",
         "description": "The quizzer is a project where the goal was to make a pub quiz. It consists of 3 apps (the quiz master, the team(s) and the scoreboard) and a server. The quiz master chooses questions, the teams answer the questions and the scoreboard displays the results.",
-        "imgAddress": "/project-images/quizzer.png",
+        "imgLinks": [
+            "/project-images/quizzer.png",
+            "/project-images/quizzer-600w.png",
+            "/project-images/quizzer-1200w.png",
+            "/project-images/quizzer-1920w.png"
+        ],
         "githubLink": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]
@@ -18,7 +28,12 @@
     {
         "title": "Eenmaal Andermaal",
         "description": "Eenmaal Andermaal is an auction website. People can search for auctions in a lot of different categories and make a bid.",
-        "imgAddress": "/project-images/eenmaalandermaal.jpg",
+        "imgLinks": [
+            "/project-images/eenmaalandermaal.jpg",
+            "/project-images/eenmaalandermaal-600w.jpg",
+            "/project-images/eenmaalandermaal-1200w.jpg",
+            "/project-images/eenmaalandermaal-1920w.jpg"
+        ],
         "githubLink": "https://github.com/IkBenDeSjaak/i-project-2020-team-5",
         "demoLink": "",
         "stack": ["Apache, MSSQL, PHP, CSS"]
@@ -26,7 +41,12 @@
     {
         "title": "Fruitcatcher",
         "description": "Fruitcatcher is a game in which the player has to catch falling fruit and dodge other falling objects.",
-        "imgAddress": "/project-images/placeholder.png",
+        "imgLinks": [
+            "/project-images/placeholder.png",
+            "/project-images/placeholder-600w.png",
+            "/project-images/placeholder-1200w.png",
+            "/project-images/placeholder-1920w.png"
+        ],
         "githubLink": "https://github.com/IkBenDeSjaak/fruitcatcher",
         "demoLink": "",
         "stack": ["Java"]
