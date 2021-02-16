@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import styles from "./Compliments.module.scss";
 
@@ -19,6 +20,13 @@ const Compliments = () => {
 
     return (
         <div className={styles.compliments}>
+            <Helmet>
+                <title>Compliments</title>
+                <meta
+                    name="description"
+                    content="A free compliment for everyone who needs it."
+                />
+            </Helmet>
             <div className={styles.parent}>
                 <div className={styles.centered}>
                     <h1>Hello sweet person,</h1>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import { isMobile } from "react-device-detect";
 import { useSwipeable } from "react-swipeable";
 
@@ -45,6 +46,13 @@ const Lindy = () => {
             }
             onMouseMove={isMobile ? () => {} : addHeart}
         >
+            <Helmet>
+                <title>Lindy</title>
+                <meta
+                    name="description"
+                    content="Lindy is the sweetest girl in the world."
+                />
+            </Helmet>
             {children}
         </div>
     );
