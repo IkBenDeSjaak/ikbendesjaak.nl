@@ -32,6 +32,11 @@ const SideDrawer = (props) => {
                         </HashLink>
                     </li>
                     <li onClick={props.closeDrawer}>
+                        <HashLink smooth to="/#skills">
+                            Skills
+                        </HashLink>
+                    </li>
+                    <li onClick={props.closeDrawer}>
                         <HashLink smooth to="/#mywork">
                             My Work
                         </HashLink>
@@ -42,7 +47,11 @@ const SideDrawer = (props) => {
                         </HashLink>
                     </li>
                     <li onClick={props.closeDrawer}>
-                        <a className={styles.resume} href="/">
+                        <a
+                            className={styles.resume}
+                            href="resume.pdf"
+                            target="_blank"
+                        >
                             Resume
                         </a>
                     </li>

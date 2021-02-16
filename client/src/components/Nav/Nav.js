@@ -32,6 +32,11 @@ function Nav(props) {
                                     </HashLink>
                                 </li>
                                 <li>
+                                    <HashLink smooth to="/#skills">
+                                        Skills
+                                    </HashLink>
+                                </li>
+                                <li>
                                     <HashLink smooth to="/#mywork">
                                         My Work
                                     </HashLink>
@@ -42,9 +47,19 @@ function Nav(props) {
                                     </HashLink>
                                 </li>
                                 <li>
-                                    <Link className={styles.resume} to="/">
+                                    {/* <Link
+                                        className={styles.resume}
+                                        to="resume.pdf"
+                                    >
                                         Resume
-                                    </Link>
+                                    </Link> */}
+                                    <a
+                                        href="resume.pdf"
+                                        target="_blank"
+                                        className={styles.resume}
+                                    >
+                                        Resume
+                                    </a>
                                 </li>
                             </ul>
                         </div>

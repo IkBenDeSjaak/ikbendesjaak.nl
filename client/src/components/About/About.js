@@ -17,34 +17,9 @@ function About() {
                         Technology at university.
                     </p>
                     <p>
-                        I like to work with JavaScript, Node.js and React
-                        especially.
+                        I especially like to work with JavaScript, Node.js and
+                        React. These are also used to create this website.
                     </p>
-                    <p>
-                        <strong>
-                            These are some technologies I've been working with:
-                        </strong>
-                    </p>
-                    <ul className={styles.skillsList}>
-                        <li>
-                            <span>JavaScript</span>
-                        </li>
-                        <li>
-                            <span>PHP</span>
-                        </li>
-                        <li>
-                            <span>React</span>
-                        </li>
-                        <li>
-                            <span>Express.js</span>
-                        </li>
-                        <li>
-                            <span>Node.js</span>
-                        </li>
-                        <li>
-                            <span>SQL</span>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
