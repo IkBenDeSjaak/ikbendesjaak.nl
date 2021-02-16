@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./Skills.module.scss";
 
 import Title from "../shared/Title/Title";
-import { blue } from "@material-ui/core/colors";
 
 function Skills() {
     return (
