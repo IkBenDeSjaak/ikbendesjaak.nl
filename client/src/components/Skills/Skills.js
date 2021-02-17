@@ -19,11 +19,8 @@ function Skills() {
                     <p>Node.js</p>
                 </div>
                 <div>
-                    <img
-                        src="/skills-images/express.svg"
-                        alt="Express.js logo"
-                    ></img>
-                    <p>Express.js</p>
+                    <img src="/skills-images/java.svg" alt="Java logo"></img>
+                    <p>Java</p>
                 </div>
                 <div>
                     <img src="/skills-images/css.svg" alt="CSS logo"></img>
