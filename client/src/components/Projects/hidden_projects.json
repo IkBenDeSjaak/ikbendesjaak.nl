@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Fruitcatcher",
+        "description": "Fruitcatcher is a game in which the player has to catch falling fruit and dodge other falling objects.",
+        "imgLinks": [
+            "/project-images/placeholder.png",
+            "/project-images/placeholder-600w.png",
+            "/project-images/placeholder-1200w.png",
+            "/project-images/placeholder-1920w.png"
+        ],
+        "githubLink": "https://github.com/IkBenDeSjaak/fruitcatcher",
+        "demoLink": "",
+        "stack": ["Java"]
+    }
+]

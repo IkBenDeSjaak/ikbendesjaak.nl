@@ -51,10 +51,10 @@ const ProjectCard = (props) => {
                 <div className={styles.description}>
                     <p>{props.projectDescription}</p>
                 </div>
-                {/* <div className={styles.links}>
+                <div className={styles.links}>
                     {gitHubIcon}
                     {demoIcon}
-                </div> */}
+                </div>
             </div>
         </div>
     );

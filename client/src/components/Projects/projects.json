@@ -8,7 +8,8 @@
             "/project-images/rekenlogboek-1200w.png",
             "/project-images/rekenlogboek-1920w.png"
         ],
-        "githubLink": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
+        "githubLink": "",
+        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, Socket.io, Sass"]
     },
@@ -21,7 +22,8 @@
             "/project-images/quizzer-1200w.png",
             "/project-images/quizzer-1920w.png"
         ],
-        "githubLink": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
+        "githubLink": "",
+        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]
     },
@@ -34,21 +36,23 @@
             "/project-images/eenmaalandermaal-1200w.jpg",
             "/project-images/eenmaalandermaal-1920w.jpg"
         ],
-        "githubLink": "https://github.com/IkBenDeSjaak/i-project-2020-team-5",
+        "githubLink": "",
+        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/i-project-2020-team-5",
         "demoLink": "",
         "stack": ["Apache, MSSQL, PHP, CSS"]
     },
     {
-        "title": "Fruitcatcher",
-        "description": "Fruitcatcher is a game in which the player has to catch falling fruit and dodge other falling objects.",
+        "title": "Personal website",
+        "description": "This is the website you're currently looking at. Out of all projects I'm the most proud of this one, because I created this one all by myself from scratch.",
         "imgLinks": [
-            "/project-images/placeholder.png",
-            "/project-images/placeholder-600w.png",
-            "/project-images/placeholder-1200w.png",
-            "/project-images/placeholder-1920w.png"
+            "/project-images/ikbendesjaak.png",
+            "/project-images/ikbendesjaak-600w.png",
+            "/project-images/ikbendesjaak-1200w.png",
+            "/project-images/ikbendesjaak-1920w.png"
         ],
-        "githubLink": "https://github.com/IkBenDeSjaak/fruitcatcher",
+        "githubLink": "https://github.com/IkBenDeSjaak/ikbendesjaak.nl",
         "demoLink": "",
-        "stack": ["Java"]
+        "demoLinkNotUsed": "https://ikbendesjaak.nl",
+        "stack": ["Express.js, React, Node.js, Sass"]
     }
 ]
