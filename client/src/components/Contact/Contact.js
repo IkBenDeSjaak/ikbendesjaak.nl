@@ -2,6 +2,7 @@ import React from "react";
 // import IconButton from "@material-ui/core/IconButton";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import InstagramIcon from "@material-ui/icons/Instagram";
 import Title from "../shared/Title/Title";
 // import DonateButton from "../DonateButton/DonateButton";
 
@@ -42,6 +43,25 @@ function Contact() {
                     > */}
                         <span>Visit my LinkedIn</span>
                         <LinkedInIcon />
+                        {/* </IconButton> */}
+                    </a>
+                </div>
+                <div className={styles.link}>
+                    <a
+                        href="https://www.instagram.com/ikbendesjaak"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {/* <IconButton
+                        className={styles.button}
+                        onClick={() =>
+                            window.open(
+                                "https://www.inststagram.com/ikbendesjaak"
+                            )
+                        }
+                    > */}
+                        <span>Visit my Instagram</span>
+                        <InstagramIcon />
                         {/* </IconButton> */}
                     </a>
                 </div>
