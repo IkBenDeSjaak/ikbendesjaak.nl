@@ -17,7 +17,7 @@ import "../../themes.scss";
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
-    const [theme, setTheme] = useState(localStorage.getItem("theme"));
+    const [theme, setTheme] = useState("light");
     const handlers = useSwipeable({
         onSwipedRight: (SwipeEventData) => {
             if (
@@ -43,6 +43,15 @@ const App = () => {
                     });
                 }, 100);
             }
+        }
+    }, []);
+
+    useEffect(() => {
+        const theme = localStorage.getItem("theme");
+        if (theme) {
+            setTheme(theme);
+        } else {
+            setTheme("light");
         }
     }, []);
 
