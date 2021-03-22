@@ -17,7 +17,7 @@ import "../../themes.scss";
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState(localStorage.getItem("theme"));
     const handlers = useSwipeable({
         onSwipedRight: (SwipeEventData) => {
             if (
@@ -56,8 +56,10 @@ const App = () => {
 
     const toggleDarkMode = () => {
         if (theme === "light") {
+            localStorage.setItem("theme", "dark");
             setTheme("dark");
         } else {
+            localStorage.setItem("theme", "light");
             setTheme("light");
         }
     };
