@@ -11,7 +11,7 @@
     position: relative;
 
     .imageContainer {
-        min-height: 12rem;
+        min-height: 9rem;
         width: 100%;
         position: relative;
 
@@ -21,6 +21,7 @@
             max-height: 100%;
             margin-left: auto;
             margin-right: auto;
+            border: 2px solid rgb(180, 180, 180);
         }
 
         img:hover {
@@ -77,9 +78,9 @@
 }
 
 @media screen and (min-width: 900px) {
-    .projectCard:hover {
-        top: -5px;
-    }
+    // .projectCard:hover {
+    //     top: -5px;
+    // }
 
     .imageContainer {
         height: 19rem;

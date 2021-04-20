@@ -33,8 +33,7 @@ const ProjectCard = (props) => {
         <div className={styles.projectCard}>
             <div className={styles.imageContainer}>
                 <img
-                    src={props.projectImgLinks[1]}
-                    srcSet={`${props.projectImgLinks[1]} 600w, ${props.projectImgLinks[2]} 1200w, ${props.projectImgLinks[3]} 1920w`}
+                    src={props.projectImgLinks[3]}
                     alt={props.projectTitle}
                     onClick={() => {
                         window.open(props.projectImgLinks[0]);
