@@ -24,7 +24,7 @@
             "/project-images/quizzer-1280w.png",
             "/project-images/quizzer-1920w.png"
         ],
-        "githubLink": "",
+        "githubLink": "https://github.com/IkBenDeSjaak/Quizzer",
         "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]

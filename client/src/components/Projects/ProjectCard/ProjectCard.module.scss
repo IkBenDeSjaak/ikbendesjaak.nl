@@ -14,6 +14,7 @@
         min-height: 9rem;
         width: 100%;
         position: relative;
+        border: 2px solid rgb(180, 180, 180);
 
         img {
             display: block;
@@ -21,7 +22,6 @@
             max-height: 100%;
             margin-left: auto;
             margin-right: auto;
-            border: 2px solid rgb(180, 180, 180);
         }
 
         img:hover {
@@ -43,7 +43,6 @@
 
         .links {
             display: flex;
-
             position: absolute;
             bottom: 1rem;
 
