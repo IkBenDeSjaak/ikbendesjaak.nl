@@ -1,4 +1,6 @@
-    Options -MultiViews
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.html [QSA,L]
+# Redirect every request to index.html. This is a Apache server related issue
+
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
