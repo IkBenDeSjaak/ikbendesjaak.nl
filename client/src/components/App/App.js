@@ -93,8 +93,8 @@ const App = () => {
     <Router>
       <div {...handlers} className={`${styles.app} ${theme}`}>
         <Nav
-          handletoggleDrawer={toggleDrawerClickHandler}
-          handletoggleDarkMode={toggleDarkMode}
+          handleToggleDrawer={toggleDrawerClickHandler}
+          handleToggleDarkMode={toggleDarkMode}
         />
         <SideDrawer
           isShown={sideDrawerOpen}
