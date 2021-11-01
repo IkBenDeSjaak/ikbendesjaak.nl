@@ -1,3 +1,5 @@
+/* global localStorage */
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
 import { useSwipeable } from 'react-swipeable'
@@ -91,12 +93,12 @@ const App = () => {
     <Router>
       <div {...handlers} className={`${styles.app} ${theme}`}>
         <Nav
-          toggleDrawer={toggleDrawerClickHandler}
-          toggleDarkMode={toggleDarkMode}
+          handletoggleDrawer={toggleDrawerClickHandler}
+          handletoggleDarkMode={toggleDarkMode}
         />
         <SideDrawer
           isShown={sideDrawerOpen}
-          closeDrawer={closeDrawerClickHandler}
+          handleCloseDrawer={closeDrawerClickHandler}
         />
         {backdrop}
         <div className={styles.fadein}>

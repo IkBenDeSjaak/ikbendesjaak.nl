@@ -9,7 +9,7 @@ const DarkModeToggleButton = (props) => (
     <IconButton
       className={styles.button}
       aria-label='darkmode toggle button'
-      onClick={props.click}
+      onClick={props.onHandleToggleDarkMode}
     >
       <Brightness2Icon />
     </IconButton>

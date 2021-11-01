@@ -9,7 +9,7 @@ const DrawerToggleButton = (props) => (
     <IconButton
       className={styles.button}
       aria-label='sidedrawer toggle button'
-      onClick={props.click}
+      onClick={props.onHandleToggleDrawer}
     >
       <Icon className='fas fa-bars' />
     </IconButton>

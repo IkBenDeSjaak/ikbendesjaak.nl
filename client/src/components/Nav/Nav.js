@@ -15,7 +15,7 @@ function Nav (props) {
       <header className={`${styles.toolbar} ${styles.shadow}`}>
         <nav className={styles.navbar}>
           <div className={styles.burger}>
-            <DrawerToggleButton click={props.toggleDrawer} />
+            <DrawerToggleButton onHandleToggleDrawer={props.handleToggleDrawer} />
           </div>
           <div className={styles.logo}>
             <div onClick={scrollToTop}>
@@ -65,7 +65,7 @@ function Nav (props) {
             </div>
             <div className={styles.darkmode}>
               <DarkModeToggleButton
-                click={props.toggleDarkMode}
+                onHandleToggleDarkMode={props.handleToggleDarkMode}
               />
             </div>
           </div>

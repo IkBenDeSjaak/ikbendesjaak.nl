@@ -20,33 +20,33 @@ const SideDrawer = (props) => {
         <ul>
           <li
             onClick={() => {
-              props.closeDrawer()
+              props.handleCloseDrawer()
               scrollToTop()
             }}
           >
             <Link to='/'>Home</Link>
           </li>
-          <li onClick={props.closeDrawer}>
+          <li onClick={props.handleCloseDrawer}>
             <HashLink smooth to='/#about'>
               About
             </HashLink>
           </li>
-          <li onClick={props.closeDrawer}>
+          <li onClick={props.handleCloseDrawer}>
             <HashLink smooth to='/#skills'>
               Skills
             </HashLink>
           </li>
-          <li onClick={props.closeDrawer}>
+          <li onClick={props.handleCloseDrawer}>
             <HashLink smooth to='/#mywork'>
               My Work
             </HashLink>
           </li>
-          <li onClick={props.closeDrawer}>
+          <li onClick={props.handleCloseDrawer}>
             <HashLink smooth to='/#contact'>
               Contact
             </HashLink>
           </li>
-          <li onClick={props.closeDrawer}>
+          <li onClick={props.handleCloseDrawer}>
             <a
               className={styles.resume}
               href='resume.pdf'
