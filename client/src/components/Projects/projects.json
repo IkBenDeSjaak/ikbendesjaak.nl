@@ -12,7 +12,7 @@
         "githubLink": "https://github.com/IkBenDeSjaak/scorezone",
         "githubLinkNotUsed:": "",
         "demoLink": "",
-        "stack": ["Next.js, React, HTML, CSS"]
+        "stack": ["Next.js, React, HTML, CSS, MySQL"]
     },
     {
         "title": "Rekenlogboek",
