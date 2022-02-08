@@ -12,6 +12,7 @@ import SideDrawer from '../SideDrawer/SideDrawer'
 import Home from '../../containers/Home/Home'
 import Lindy from '../../containers/Lindy/Lindy'
 import Compliments from '../../containers/Compliments/Compliments'
+import Valentine from '../../containers/Valentine/Valentine'
 import NotFound from '../../containers/NotFound/NotFound'
 
 import styles from './App.module.scss'
@@ -108,6 +109,10 @@ const App = () => {
             <Route
               path='/compliments'
               component={Compliments}
+            />
+            <Route
+              path='/valentine'
+              component={Valentine}
             />
             <Route component={NotFound} />
           </Switch>

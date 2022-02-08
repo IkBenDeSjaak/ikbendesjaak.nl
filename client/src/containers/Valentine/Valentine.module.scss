@@ -1,0 +1,49 @@
+.valentine {
+    .content {
+        width: 50%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .cinematicket {
+            align-self: center;
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 40rem;
+            height: 15rem;
+            background-color: rgb(238, 62, 62);
+
+            .toptext {
+                margin-top: 1rem;
+                background-color: black;
+                height: 20%;
+                display: flex;
+                justify-content: center;
+
+                p {
+                    color: white;
+                    font-size: 1rem;
+                    letter-spacing: 1rem;
+                    font-weight: bold;
+                }
+            }
+
+            .maintext {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 70%;
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
