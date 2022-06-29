@@ -1,0 +1,88 @@
+@import "../../../pages/global.scss";
+
+.projectCard {
+    margin-bottom: 2rem;
+    // background-color: #ffffff;
+    background-color: var(--card-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 1.5rem;
+    top: 0;
+    transition: top ease 0.3s;
+    position: relative;
+
+    .imageContainer {
+        min-height: 9rem;
+        width: 100%;
+        position: relative;
+        background-color: $secondary-color;
+
+        img {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+    }
+
+    .info {
+        .tools {
+            span {
+                // color: rgb(111, 111, 111);
+                color: var(--stack-color);
+            }
+        }
+
+        .description {
+            margin-bottom: 2rem;
+            white-space: pre-line;
+        }
+
+        .links {
+            display: flex;
+            position: absolute;
+            bottom: 1rem;
+
+            a {
+                margin-right: 1rem;
+                text-decoration: none;
+                align-items: center;
+                padding: 0.25rem 0.5rem;
+                border-style: solid;
+                border-color: $primary-color;
+                // background-color: $secondary-color;
+                background-color: var(--card-link-background);
+                color: $primary-color;
+                width: 5rem;
+                transition: 0.2s;
+
+                span {
+                    margin-right: 0.2rem;
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media screen and (min-width: 900px) {
+                a:hover {
+                    background-color: $primary-color;
+                    // color: $secondary-color;
+                    color: var(--card-link-text);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    // .projectCard:hover {
+    //     top: -5px;
+    // }
+
+    .imageContainer {
+        height: 19rem;
+    }
+}

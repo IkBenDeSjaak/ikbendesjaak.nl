@@ -1,0 +1,50 @@
+{
+    "name": "client",
+    "version": "1.0.0",
+    "private": true,
+    "proxy": "http://localhost:3000",
+    "dependencies": {
+        "@material-ui/core": "^4.12.3",
+        "@material-ui/icons": "^4.11.2",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "next": "^12.2.0",
+        "react": "^18.2.0",
+        "react-device-detect": "^1.17.0",
+        "react-dom": "^18.2.0",
+        "react-swipeable": "^6.2.0",
+        "sass": "^1.43.2"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export",
+        "start": "next start"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "standard": {
+        "ignore": [
+            "/build"
+        ]
+    },
+    "devDependencies": {
+        "standard": "^16.0.4"
+    }
+}

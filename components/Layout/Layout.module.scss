@@ -1,0 +1,23 @@
+.app {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 2rem;
+
+  
+
+        .fadein {
+            animation: fadein 1s;
+            width: 100%;
+            height: 100%;
+        }
+    
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    
+}
