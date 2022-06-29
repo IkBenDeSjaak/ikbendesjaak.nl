@@ -8,7 +8,6 @@ To run this project locally clone this repository and run the following commands
 
 ```bash
 $ cd ikbendesjaak.nl
-$ cd client
 $ npm install
-$ npm start
+$ npm run dev
 ```
