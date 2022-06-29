@@ -8,14 +8,14 @@ import SideDrawer from '../SideDrawer/SideDrawer'
 
 import styles from './Layout.module.scss'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
   const [theme, setTheme] = useState('light')
   const handlers = useSwipeable({
     onSwipedRight: (SwipeEventData) => {
       if (
         SwipeEventData.initial[0] < 110 ||
-                (isTablet && SwipeEventData.initial[0] < 220)
+        (isTablet && SwipeEventData.initial[0] < 220)
       ) {
         setSideDrawerOpen(true)
       }
@@ -65,20 +65,20 @@ const Layout = ({children}) => {
   }
 
   return (
-      <div {...handlers} className={`${styles.app} ${theme}`}>
-          <Nav
-            handleToggleDrawer={toggleDrawerClickHandler}
-            handleToggleDarkMode={toggleDarkMode}
-          />
-          <SideDrawer
-            isShown={sideDrawerOpen}
-            handleCloseDrawer={closeDrawerClickHandler}
-          />
-          {backdrop}
-          <div className={styles.fadein}>
-            {children}
-          </div>
+    <div {...handlers} className={`${styles.app} ${theme}`}>
+      <Nav
+        handleToggleDrawer={toggleDrawerClickHandler}
+        handleToggleDarkMode={toggleDarkMode}
+      />
+      <SideDrawer
+        isShown={sideDrawerOpen}
+        handleCloseDrawer={closeDrawerClickHandler}
+      />
+      {backdrop}
+      <div className={styles.fadein}>
+        {children}
       </div>
+    </div>
   )
 }
 

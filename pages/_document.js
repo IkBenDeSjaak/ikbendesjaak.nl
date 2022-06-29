@@ -2,27 +2,27 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html style={{scrollBehavior:'smooth'}}>
-      <Head> 
-        <meta charset="utf-8" />
-        <link rel="icon" href="/favicon.png" />
+    <Html style={{ scrollBehavior: 'smooth' }}>
+      <Head>
+        <meta charSet='utf-8' />
+        <link rel='icon' href='/favicon.png' />
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
-        <meta name="theme-color" content="#000000" />
+        <meta name='theme-color' content='#000000' />
         <meta
-            name="description"
-            content="Sjaak Kok is a student web developer from the Netherlands."
+          name='description'
+          content='Sjaak Kok is a student web developer from the Netherlands.'
         />
-        <meta property="og:title" content="Sjaak Kok" />
-        <meta property="og:url" content="https://www.ikbendesjaak.nl" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/favicon.png" />
+        <meta property='og:title' content='Sjaak Kok' />
+        <meta property='og:url' content='https://www.ikbendesjaak.nl' />
+        <meta property='og:type' content='website' />
+        <meta property='og:image' content='/favicon.png' />
         <meta
-            property="og:description"
-            content="Sjaak Kok is a student web developer from the Netherlands."
+          property='og:description'
+          content='Sjaak Kok is a student web developer from the Netherlands.'
         />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@IkBenDeSjaak99" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <meta name='twitter:card' content='summary' />
+        <meta name='twitter:creator' content='@IkBenDeSjaak99' />
+        <link rel='apple-touch-icon' href='/favicon.png' />
         {/* <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -50,14 +50,14 @@ export default function Document() {
             rel="stylesheet"
         /> */}
         <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+          rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'
         />
         {/* <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
             rel="stylesheet"
         /> */}
-        <link rel="manifest" href="/manifest.json" />
+        <link rel='manifest' href='/manifest.json' />
         {/* <title>Sjaak Kok</title> */}
       </Head>
       <body>

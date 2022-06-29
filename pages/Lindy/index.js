@@ -37,13 +37,13 @@ const Lindy = () => {
       className={styles.lindy}
       id='lindy'
       onClick={
-                isMobile
-                  ? addHeart
-                  : () => {
-                      setHearts([])
-                    }
-            }
-      onMouseMove={isMobile ? () => {} : addHeart}
+        isMobile
+          ? addHeart
+          : () => {
+            setHearts([])
+          }
+      }
+      onMouseMove={isMobile ? () => { } : addHeart}
     >
       {children}
     </div>

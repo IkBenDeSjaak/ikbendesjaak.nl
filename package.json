@@ -18,8 +18,10 @@
     },
     "scripts": {
         "dev": "next dev",
-        "build": "next build && next export",
-        "start": "next start"
+        "build": "next build",
+        "start": "next start",
+        "build-static": "next build && next export && npm run build-static-repair-index",
+        "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
     },
     "eslintConfig": {
         "extends": [
@@ -45,6 +47,7 @@
         ]
     },
     "devDependencies": {
+        "replace-in-files-cli": "^2.0.0",
         "standard": "^16.0.4"
     }
 }
