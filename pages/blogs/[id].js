@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Date from "../../components/Date/date";
+import Date from "../../components/Date/Date";
 
 import { getAllBlogIds, getBlogData } from "../../lib/blogs";
 

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Date from '../../components/Date/date';
+import Date from '../../components/Date/Date';
 
 import { getSortedBlogsData } from '../../lib/blogs';
 
