@@ -10,10 +10,10 @@ const SideDrawer = (props) => {
   return (
     <div
       className={
-                props.isShown
-                  ? `${styles.side_drawer} ${styles.open}`
-                  : styles.side_drawer
-            }
+        props.isShown
+          ? `${styles.side_drawer} ${styles.open}`
+          : styles.side_drawer
+      }
     >
       <nav>
         <ul>
@@ -38,6 +38,11 @@ const SideDrawer = (props) => {
           <li onClick={props.handleCloseDrawer}>
             <Link href='/#mywork'>
               <a>My Work</a>
+            </Link>
+          </li>
+          <li onClick={props.handleCloseDrawer}>
+            <Link href='/blogs'>
+              <a>Blogs</a>
             </Link>
           </li>
           <li onClick={props.handleCloseDrawer}>

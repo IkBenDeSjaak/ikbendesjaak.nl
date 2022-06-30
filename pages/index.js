@@ -7,7 +7,7 @@ import Projects from '../components/Projects/Projects'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 
-function Home() {
+export default function Home() {
   return (
     <div className='home'>
       <Feature />
@@ -20,4 +20,3 @@ function Home() {
   )
 }
 
-export default Home

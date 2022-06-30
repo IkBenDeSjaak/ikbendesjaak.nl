@@ -4,7 +4,7 @@ import styles from './About.module.scss'
 
 import Title from '../shared/Title/Title'
 
-function About () {
+function About() {
   return (
     <div className={styles.about} id='about'>
       <Title title='ABOUT ME' />

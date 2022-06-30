@@ -4,7 +4,7 @@ import DrawerToggleButton from '../DrawerToggleButton/DrawerToggleButton'
 import DarkModeToggleButton from '../DarkModeToggleButton/DarkModeToggleButton'
 import styles from './Nav.module.scss'
 
-function Nav (props) {
+function Nav(props) {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -38,6 +38,11 @@ function Nav (props) {
                 <li>
                   <Link href='/#mywork'>
                     <a>My Work</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/blogs'>
+                    <a>Blogs</a>
                   </Link>
                 </li>
                 <li>
