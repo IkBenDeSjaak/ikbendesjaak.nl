@@ -12,7 +12,7 @@ function About() {
         <img src='character.png' alt='character' />
         <div className={styles.information}>
           <p>
-            I'm a beginning web developer from the Netherlands. I'm
+            I&apos;m a beginning web developer from the Netherlands. I&apos;m
             currently studying Information and Communication
             Technology at university.
           </p>

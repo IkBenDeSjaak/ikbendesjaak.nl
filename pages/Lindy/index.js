@@ -50,4 +50,4 @@ const Lindy = () => {
   )
 }
 
-export default Lindy
+export default Lindy 

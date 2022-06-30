@@ -25,12 +25,12 @@
         "build": "next build",
         "start": "next start",
         "build-static": "next build && next export && npm run build-static-repair-index",
-        "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
+        "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html",
+        "lint": "next lint"
     },
     "eslintConfig": {
         "extends": [
-            "react-app",
-            "react-app/jest"
+            "next"
         ]
     },
     "browserslist": {
@@ -51,6 +51,7 @@
         ]
     },
     "devDependencies": {
+        "eslint-config-next": "^12.2.0",
         "replace-in-files-cli": "^2.0.0",
         "standard": "^16.0.4"
     }

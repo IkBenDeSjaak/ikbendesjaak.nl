@@ -29,4 +29,4 @@ const Compliments = () => {
   )
 }
 
-export default Compliments
+export default Compliments 

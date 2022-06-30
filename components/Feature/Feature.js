@@ -2,17 +2,17 @@ import React from 'react'
 
 import styles from './Feature.module.scss'
 
-function Feature () {
+function Feature() {
   return (
     <div className={styles.feature}>
       <h1>
-        Hi, I'm Sjaak{' '}
+        Hi, I&apos;m Sjaak{' '}
         <span role='img' aria-label='hello'>
           👋
         </span>
       </h1>
       <p className={styles.description}>
-        I'm a <span className={styles.developer}>web developer</span>
+        I&apos;m a <span className={styles.developer}>web developer</span>
       </p>
 
       <p className={styles.subtitle}>

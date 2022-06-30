@@ -4,11 +4,11 @@ import styles from './Skills.module.scss'
 
 import Title from '../shared/Title/Title'
 
-function Skills () {
+function Skills() {
   return (
     <div className={styles.skills} id='skills'>
       <Title title='MY SKILLS' />
-      <p>These are some technologies I've been working with:</p>
+      <p>These are some technologies I&apos;ve been working with:</p>
       <div className={styles.content}>
         <div>
           <img src='/skills-images/react.svg' alt='React logo' />
