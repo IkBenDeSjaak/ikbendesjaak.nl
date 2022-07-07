@@ -26,7 +26,7 @@ Run `dir /s /b > paths.txt` in the directory in the terminal that you want to ch
 
 #### Option 2
 
-You can also download tools online that will scan you drive and that will show you path lengths of all files. I didn't choose this option, because I didn't want to install another program.
+You can also download tools online that will scan your drive and that will show you path lengths of all files. I didn't choose this option, because I didn't want to install another program.
 
 ---
 
