@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './DonateButton.module.scss'
 
-function DonateButton () {
+function DonateButton() {
   return (
     <div className={styles.donateButton}>
       <form
@@ -16,7 +16,7 @@ function DonateButton () {
         />
         <input
           type='image'
-          src='donate_button.svg'
+          src='/images/donate_button.svg'
           border='0'
           name='submit'
           title='PayPal - The safer, easier way to pay online!'

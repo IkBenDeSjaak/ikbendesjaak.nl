@@ -27,7 +27,7 @@
         "githubLink": "https://github.com/IkBenDeSjaak/ikbendesjaak.nl",
         "demoLink": "",
         "demoLinkNotUsed": "https://ikbendesjaak.nl",
-        "stack": ["Express.js, React, Node.js, Sass"]
+        "stack": ["Next.js, React, Sass"]
     },
     {
         "title": "Inside Airbnb",
