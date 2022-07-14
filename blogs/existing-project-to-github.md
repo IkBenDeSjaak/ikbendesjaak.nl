@@ -1,6 +1,7 @@
 ---
 title: "How to push an existing project to GitHub?"
 date: "2021-10-12"
+category: "Tech"
 description: "Sometimes I want to push a project to GitHub. But often when I do that my project is somehow nested in some folders on GitHub instead of having the root of my project there. That's why I decided to figure out how to make sure that won't happen anymore and how I'll always be able to push a fresh project to GitHub."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "How to sign your commits?"
 date: "2022-07-13"
+category: "Tech"
 description: "Recently I read that people could falsely commit on my name. This can be done by simply doing a commmit with someone else's config values which values you can easily discover. So how can we show to everyone that my commit is really mine? The solution for this is by using signed commits."
 ---
 
@@ -143,3 +144,10 @@ where gpg
 #### Set an email address for a specific local repository
 
 `git config user.email "YOUR-OWN-EMAIL-HERE"`
+
+---
+
+Sources:
+
+-   [https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+-   [https://www.freecodecamp.org/news/what-is-commit-signing-in-git/](https://www.freecodecamp.org/news/what-is-commit-signing-in-git/)

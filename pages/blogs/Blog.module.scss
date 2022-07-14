@@ -22,6 +22,10 @@
     .lightText {
         color: #666;
     }
+
+    img {
+        width: -webkit-fill-available;
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -29,5 +33,13 @@
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .article {
+        img {
+            width: unset;
+        }
     }
 }

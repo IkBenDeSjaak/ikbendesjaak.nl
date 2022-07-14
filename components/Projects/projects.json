@@ -3,11 +3,11 @@
         "title": "ScoreZone",
         "description": "ScoreZone is a website on which people can predict football matches from major leagues and compete against friends in poules.",
         "imgLinks": [
-            "/project-images/scorezone.png",
-            "/project-images/scorezone-600w.png",
-            "/project-images/scorezone-1200w.png",
-            "/project-images/scorezone-1280w.png",
-            "/project-images/scorezone-1920w.png"
+            "/images/projects/scorezone.png",
+            "/images/projects/scorezone-600w.png",
+            "/images/projects/scorezone-1200w.png",
+            "/images/projects/scorezone-1280w.png",
+            "/images/projects/scorezone-1920w.png"
         ],
         "githubLink": "https://github.com/IkBenDeSjaak/scorezone",
         "githubLinkNotUsed:": "",
@@ -18,11 +18,11 @@
         "title": "Rekenlogboek",
         "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. Students fill in their logbooks on Microsoft Teams and teachers can see what their students filled in.",
         "imgLinks": [
-            "/project-images/rekenlogboek.png",
-            "/project-images/rekenlogboek-600w.png",
-            "/project-images/rekenlogboek-1200w.png",
-            "/project-images/rekenlogboek-1280w.png",
-            "/project-images/rekenlogboek-1920w.png"
+            "/images/projects/rekenlogboek.png",
+            "/images/projects/rekenlogboek-600w.png",
+            "/images/projects/rekenlogboek-1200w.png",
+            "/images/projects/rekenlogboek-1280w.png",
+            "/images/projects/rekenlogboek-1920w.png"
         ],
         "githubLink": "",
         "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
@@ -33,11 +33,11 @@
         "title": "Personal website",
         "description": "This is the website you're currently looking at. Out of all projects I'm the most proud of this one, because I created this one all by myself from scratch.",
         "imgLinks": [
-            "/project-images/ikbendesjaak.png",
-            "/project-images/ikbendesjaak-600w.png",
-            "/project-images/ikbendesjaak-1200w.png",
-            "/project-images/ikbendesjaak-1280w.png",
-            "/project-images/ikbendesjaak-1920w.png"
+            "/images/projects/ikbendesjaak.png",
+            "/images/projects/ikbendesjaak-600w.png",
+            "/images/projects/ikbendesjaak-1200w.png",
+            "/images/projects/ikbendesjaak-1280w.png",
+            "/images/projects/ikbendesjaak-1920w.png"
         ],
         "githubLink": "https://github.com/IkBenDeSjaak/ikbendesjaak.nl",
         "demoLink": "",
@@ -48,11 +48,11 @@
         "title": "Eenmaal Andermaal",
         "description": "Eenmaal Andermaal is an auction website. People can search for auctions in a lot of different categories and make a bid.",
         "imgLinks": [
-            "/project-images/eenmaalandermaal.jpg",
-            "/project-images/eenmaalandermaal-600w.jpg",
-            "/project-images/eenmaalandermaal-1200w.jpg",
-            "/project-images/eenmaalandermaal-1280w.jpg",
-            "/project-images/eenmaalandermaal-1920w.jpg"
+            "/images/projects/eenmaalandermaal.jpg",
+            "/images/projects/eenmaalandermaal-600w.jpg",
+            "/images/projects/eenmaalandermaal-1200w.jpg",
+            "/images/projects/eenmaalandermaal-1280w.jpg",
+            "/images/projects/eenmaalandermaal-1920w.jpg"
         ],
         "githubLink": "",
         "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/i-project-2020-team-5",

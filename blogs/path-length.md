@@ -1,6 +1,7 @@
 ---
 title: "How to find files with a long path length?"
 date: "2022-06-28"
+category: "Tech"
 description: "When trying to change the default folder of my Documents folder to another drive I got an error that said the path length of some files where too long to be moved and the path length could have a maximum of 260 characters. Then raised the question how I could find the specific files that caused the error."
 ---
 
@@ -30,4 +31,6 @@ You can also download tools online that will scan your drive and that will show 
 
 ---
 
-Source: [https://stackoverflow.com/a/12697503/14570064](https://stackoverflow.com/a/12697503/14570064)
+Sources:
+
+-   [https://stackoverflow.com/a/12697503/14570064](https://stackoverflow.com/a/12697503/14570064)

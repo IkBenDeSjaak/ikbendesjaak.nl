@@ -1,6 +1,7 @@
 ---
 title: "How to find and update NPM packages?"
 date: "2022-07-13"
+category: "Tech"
 description: "GitHub notifies you when you have dependencies in your project with security vulnerabilities. But often it complains about an NPM package I didn't even install by myself. It's a package that a package I did install depends on. But which package that I did install is the parent of that package?"
 ---
 
@@ -34,3 +35,10 @@ OR you can also specify a version you want to update to.
 ```bash
 npm update NAME-OF-PACKAGE@1.0.0 --save-dev
 ```
+
+---
+
+Sources:
+
+-   [https://stackoverflow.com/questions/31923195/how-to-find-reverse-dependencies-on-npm-package](https://stackoverflow.com/questions/31923195/how-to-find-reverse-dependencies-on-npm-package)
+-   [https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed](https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed)

@@ -1,6 +1,7 @@
 ---
 title: "How to fix the GitKraken icon not showing?"
 date: "2022-01-17"
+category: "Tech"
 description: "At some point the desktop icon of my GitKraken app disappeared. I could still run the app, but the icon was not showing. This made me wonder what happened and how I could get the icon back."
 ---
 
@@ -14,4 +15,6 @@ To fix this error first close the GitKraken app. Then you have to delete the old
 
 ---
 
-Source: [https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo](https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo)
+Sources:
+
+-   [https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo](https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo)

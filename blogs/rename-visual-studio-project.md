@@ -1,6 +1,7 @@
 ---
 title: "How to rename projects in Visual Studio?"
 date: "2022-03-02"
+category: "Tech"
 description: "When trying to change the name of a project in Visual Studio I noticed it wasn't as straightforward as I expected it to be. There were several problems when reloading the project and I had to change a lot more files than what I was used to. In order to not have to go through the same hell over and over again I decided to create a little tutorial for this."
 ---
 
@@ -26,3 +27,9 @@ Supposedly you have a solution structure as follows as opened in Visual Studio:
 **Solution cannot be renamed because solution files with the specified name already exist**
 
 If you get this error in file explorer navigate to the root of your project and find the `.vs` folder. Open this folder and delete the folder with the same name as you want to rename your solution to.
+
+---
+
+Sources:
+
+-   [https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio](https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio)

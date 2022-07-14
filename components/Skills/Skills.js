@@ -11,27 +11,27 @@ function Skills() {
       <p>These are some technologies I&apos;ve been working with:</p>
       <div className={styles.content}>
         <div>
-          <img src='/skills-images/react.svg' alt='React logo' />
+          <img src='/images/skills/react.svg' alt='React logo' />
           <p>React</p>
         </div>
         <div>
-          <img src='/skills-images/node.svg' alt='Node.js logo' />
+          <img src='/images/skills/node.svg' alt='Node.js logo' />
           <p>Node.js</p>
         </div>
         <div>
-          <img src='/skills-images/java.svg' alt='Java logo' />
+          <img src='/images/skills/java.svg' alt='Java logo' />
           <p>Java</p>
         </div>
         <div>
-          <img src='/skills-images/css.svg' alt='CSS logo' />
+          <img src='/images/skills/css.svg' alt='CSS logo' />
           <p>CSS</p>
         </div>
         <div>
-          <img src='/skills-images/mssql.svg' alt='SQL logo' />
+          <img src='/images/skills/mssql.svg' alt='SQL logo' />
           <p>SQL</p>
         </div>
         <div>
-          <img src='/skills-images/net.svg' alt='.NET logo' />
+          <img src='/images/skills/net.svg' alt='.NET logo' />
           <p>.NET</p>
         </div>
       </div>

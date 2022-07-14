@@ -1,26 +1,37 @@
 @import "../global.scss";
 
-.article {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.blogs {
+    .buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
 
-    .blogtitle {
-        font-size: 2rem;
-        line-height: 1.3;
-        font-weight: 800;
-        letter-spacing: -0.05rem;
-        margin: 1rem 0;
-        color: $tertiary-color;
+        .button {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .article {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+        .blogtitle {
+            font-size: 2rem;
+            line-height: 1.3;
+            font-weight: 800;
+            letter-spacing: -0.05rem;
+            margin: 1rem 0;
+            color: $tertiary-color;
+        }
+        
+        .lightText {
+            color: #666;
+            font-size: 0.9rem;
+        }
     }
     
-    .lightText {
-        color: #666;
-        font-size: 0.9rem;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .article {
+    @media screen and (min-width: 700px) {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
