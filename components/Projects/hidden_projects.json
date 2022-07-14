@@ -26,5 +26,20 @@
         "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-quizz-sjaak-rowan-paul",
         "demoLink": "",
         "stack": ["MongoDB, Express.js, React, Node.js, ws, Sass"]
+    },
+    {
+        "title": "Eenmaal Andermaal",
+        "description": "Eenmaal Andermaal is an auction website. People can search for auctions in a lot of different categories and make a bid.",
+        "imgLinks": [
+            "/images/projects/eenmaalandermaal.jpg",
+            "/images/projects/eenmaalandermaal-600w.jpg",
+            "/images/projects/eenmaalandermaal-1200w.jpg",
+            "/images/projects/eenmaalandermaal-1280w.jpg",
+            "/images/projects/eenmaalandermaal-1920w.jpg"
+        ],
+        "githubLink": "",
+        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/i-project-2020-team-5",
+        "demoLink": "",
+        "stack": ["Apache, MSSQL, PHP, CSS"]
     }
 ]

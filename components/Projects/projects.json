@@ -15,21 +15,6 @@
         "stack": ["Next.js, React, HTML, CSS, MySQL"]
     },
     {
-        "title": "Rekenlogboek",
-        "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. Students fill in their logbooks on Microsoft Teams and teachers can see what their students filled in.",
-        "imgLinks": [
-            "/images/projects/rekenlogboek.png",
-            "/images/projects/rekenlogboek-600w.png",
-            "/images/projects/rekenlogboek-1200w.png",
-            "/images/projects/rekenlogboek-1280w.png",
-            "/images/projects/rekenlogboek-1920w.png"
-        ],
-        "githubLink": "",
-        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
-        "demoLink": "",
-        "stack": ["MongoDB, Express.js, React, Node.js, Socket.io, Sass"]
-    },
-    {
         "title": "Personal website",
         "description": "This is the website you're currently looking at. Out of all projects I'm the most proud of this one, because I created this one all by myself from scratch.",
         "imgLinks": [
@@ -45,18 +30,33 @@
         "stack": ["Express.js, React, Node.js, Sass"]
     },
     {
-        "title": "Eenmaal Andermaal",
-        "description": "Eenmaal Andermaal is an auction website. People can search for auctions in a lot of different categories and make a bid.",
+        "title": "Inside Airbnb",
+        "description": "Inside Airbnb is a website that provides insight into Airbnb locations including an admin page with general trends.",
         "imgLinks": [
-            "/images/projects/eenmaalandermaal.jpg",
-            "/images/projects/eenmaalandermaal-600w.jpg",
-            "/images/projects/eenmaalandermaal-1200w.jpg",
-            "/images/projects/eenmaalandermaal-1280w.jpg",
-            "/images/projects/eenmaalandermaal-1920w.jpg"
+            "/images/projects/inside-airbnb.png",
+            "/images/projects/inside-airbnb-600w.png",
+            "/images/projects/inside-airbnb-1200w.png",
+            "/images/projects/inside-airbnb-1280w.png",
+            "/images/projects/inside-airbnb-1920w.png"
+        ],
+        "githubLink": "https://github.com/IkBenDeSjaak/inside-airbnb",
+        "githubLinkNotUsed:": "",
+        "demoLink": "",
+        "stack": [".Net Core, MVC, C#, Redis, MSSQL, Azure"]
+    },
+    {
+        "title": "Rekenlogboek",
+        "description": "The rekenlogboek is an app that helps teachers to keep track of the progress students make with maths. Students fill in their logbooks on Microsoft Teams and teachers can see what their students filled in.",
+        "imgLinks": [
+            "/images/projects/rekenlogboek.png",
+            "/images/projects/rekenlogboek-600w.png",
+            "/images/projects/rekenlogboek-1200w.png",
+            "/images/projects/rekenlogboek-1280w.png",
+            "/images/projects/rekenlogboek-1920w.png"
         ],
         "githubLink": "",
-        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/i-project-2020-team-5",
+        "githubLinkNotUsed:": "https://github.com/IkBenDeSjaak/sep2020-project-jaguarundi",
         "demoLink": "",
-        "stack": ["Apache, MSSQL, PHP, CSS"]
+        "stack": ["MongoDB, Express.js, React, Node.js, Socket.io, Sass"]
     }
 ]
