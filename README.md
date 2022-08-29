@@ -2,7 +2,7 @@
 
 This is the repository for my personal website, [ikbendesjaak.nl](https://ikbendesjaak.nl).
 
-#### Installation
+### Installation
 
 To run this project locally clone this repository and run the following commands:
 
