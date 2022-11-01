@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { isMobile } from 'react-device-detect'
 import { useSwipeable } from 'react-swipeable'
 
-import styles from './Lindy.module.scss'
+import styles from './Hearts.module.scss'
 
-const Lindy = () => {
+const Hearts = () => {
   const [hearts, setHearts] = useState([])
   const handlers = useSwipeable({
     onSwipedUp: () => setHearts([])
@@ -34,8 +34,8 @@ const Lindy = () => {
   return (
     <div
       {...handlers}
-      className={styles.lindy}
-      id='lindy'
+      className={styles.hearts}
+      id='heart'
       onClick={
         isMobile
           ? addHeart
@@ -50,4 +50,4 @@ const Lindy = () => {
   )
 }
 
-export default Lindy 
+export default Hearts
