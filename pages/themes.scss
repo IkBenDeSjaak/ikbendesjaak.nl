@@ -23,6 +23,7 @@
     --sidedrawer-resume-background: #{$primary-color};
     --sidedrawer-resume-text: #{$secondary-color};
     --nav-background: #{$secondary-color};
+    --tag-button-border: #{$tertiary-color};
 }
 
 .dark {
@@ -48,4 +49,5 @@
     --sidedrawer-resume-background: #{$tertiary-color};
     --sidedrawer-resume-text: #{$primary-color};
     --nav-background: #dfad36;
+    --tag-button-border: #{$secondary-color};
 }

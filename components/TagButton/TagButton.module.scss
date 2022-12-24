@@ -1,7 +1,7 @@
 @import "../../pages/global.scss";
 
 .tagButton {
-    border: 1px solid black;
+    border: 1px solid var(--tag-button-border);
     padding: 0.5rem;
 }
 

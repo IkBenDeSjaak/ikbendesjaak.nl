@@ -1,7 +1,7 @@
 @import "../global.scss";
 
 .article {
-    line-height: 1.5rem; 
+    line-height: 1.5rem;
     word-wrap: break-word;
 
     .blogtitle {
@@ -17,8 +17,9 @@
         background-color: #eef2f5;
         padding: 0.2rem;
         white-space: break-spaces;
+        color: $tertiary-color;
     }
-    
+
     .lightText {
         color: #666;
     }
