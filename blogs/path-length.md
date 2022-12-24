@@ -33,4 +33,4 @@ You can also download tools online that will scan your drive and that will show 
 
 Sources:
 
--   [https://stackoverflow.com/a/12697503/14570064](https://stackoverflow.com/a/12697503/14570064)
+- [https://stackoverflow.com/a/12697503/14570064](https://stackoverflow.com/a/12697503/14570064)

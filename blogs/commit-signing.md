@@ -11,9 +11,9 @@ Recently I read that people could falsely commit on my name. This can be done by
 
 In this tutorial we will create a GPG key. If you have Git BASH installed then you don't have to install GPG seperately, because it already comes with Git BASH. In this case you have to run all GPG command from Git Bash. If you want to install GPG seperately there all several options:
 
--   **Windows**: [Gpg4win](https://www.gpg4win.org/)
--   **Mac**: [GPG Suite](https://gpgtools.org/)
--   **Linux**: Usually already includes GPG. If not run: `sudo apt install gnupg`.
+- **Windows**: [Gpg4win](https://www.gpg4win.org/)
+- **Mac**: [GPG Suite](https://gpgtools.org/)
+- **Linux**: Usually already includes GPG. If not run: `sudo apt install gnupg`.
 
 ### Tutorial
 
@@ -21,37 +21,37 @@ In this tutorial we will create a GPG key. If you have Git BASH installed then y
 
 1. Check the version your GPG by running the following command.
 
-```bash
-gpg --version
-```
+    ```bash
+    gpg --version
+    ```
 
 2. Start creating a new GPG key.
 
-If you are on GPG version 2.1.17 or higher run the following command.
+    If you are on GPG version 2.1.17 or higher run the following command.
 
-```bash
-gpg --full-generate-key
-```
+    ```bash
+    gpg --full-generate-key
+    ```
 
-If you are on a lower version than above you should run the following command, because the command above won't work.
+    If you are on a lower version than above you should run the following command, because the command above won't work.
 
-```bash
-gpg --default-new-key-algo rsa4096 --gen-key
-```
+    ```bash
+    gpg --default-new-key-algo rsa4096 --gen-key
+    ```
 
 3. You'll get multiple prompts to select a few options.
 
--   **Kind of key**: choose an option with RSA. So choose `1` for `RSA and RSA` or `4` which is `RSA (sign only)`.
--   **Key size**: choose `4096`. This is the minimum size to use on GitHub.
--   **Time for key to be valid**: choose `0` if you don't want to the key to expire. Otherwise choose another option.
+    - **Kind of key**: choose an option with RSA. So choose `1` for `RSA and RSA` or `4` which is `RSA (sign only)`.
+    - **Key size**: choose `4096`. This is the minimum size to use on GitHub.
+    - **Time for key to be valid**: choose `0` if you don't want to the key to expire. Otherwise choose another option.
 
 4. Verify the above selections by choosing `y`.
 
 5. You'll get a few prompts again to create a user ID to identify the key.
 
--   **Real name**: Enter your name.
--   **Email address**: Enter your email adress. If you want to integrate your GPG key with GitHub make sure you sure an email address that is connected to your GitHub account.
--   **Comment**: You can type whatever you want here. Personally I'd leave this blank.
+    - **Real name**: Enter your name.
+    - **Email address**: Enter your email adress. If you want to integrate your GPG key with GitHub make sure you sure an email address that is connected to your GitHub account.
+    - **Comment**: You can type whatever you want here. Personally I'd leave this blank.
 
 6. Verify the information by choosing `O`.
 7. You'll now receive a prompt to create a passphrase to protect your key. It is important to remember this password!
@@ -60,24 +60,24 @@ gpg --default-new-key-algo rsa4096 --gen-key
 
 1. To get a list of your GPG keys run the following command.
 
-```bash
-gpg --list-secret-keys --keyid-format=long
-```
+    ```bash
+    gpg --list-secret-keys --keyid-format=long
+    ```
 
-This will give you an output as follows where the GPG key ID is `3R11A123YUIA72O10W1V123AP33467T678ACP098`. Copy this key.
+    This will give you an output as follows where the GPG key ID is `3R11A123YUIA72O10W1V123AP33467T678ACP098`. Copy this key.
 
-```bash
-sec   rsa4096/D24532A121BAC233 2022-07-13 [SC]
-      3R11A123YUIA72O10W1V123AP33467T678ACP098
-uid                 [ultimate] NAME <email@email.com>
-ssb   rsa4096/10A271000P554109 2022-07-13 [E]
-```
+    ```bash
+    sec   rsa4096/D24532A121BAC233 2022-07-13 [SC]
+        3R11A123YUIA72O10W1V123AP33467T678ACP098
+    uid                 [ultimate] NAME <email@email.com>
+    ssb   rsa4096/10A271000P554109 2022-07-13 [E]
+    ```
 
-2.  To make the key ready to upload to GitHub you need to export it. This will print the key in ASCII armor format.
+2. To make the key ready to upload to GitHub you need to export it. This will print the key in ASCII armor format.
 
-```bash
-gpg --armor --export YOUR-OWN-GPG-KEY-ID-HERE
-```
+    ```bash
+    gpg --armor --export YOUR-OWN-GPG-KEY-ID-HERE
+    ```
 
 3. Copy the output in the terminal including the `-----BEGIN PGP PUBLIC KEY BLOCK-----` and `-----END PGP PUBLIC KEY BLOCK-----` statements.
 
@@ -91,24 +91,24 @@ gpg --armor --export YOUR-OWN-GPG-KEY-ID-HERE
 
 1. To get a list of your GPG keys run the following command.
 
-```bash
-gpg --list-secret-keys --keyid-format=long
-```
+    ```bash
+    gpg --list-secret-keys --keyid-format=long
+    ```
 
-This will give you an output as follows where the GPG key ID is `3R11A123YUIA72O10W1V123AP33467T678ACP098`. Copy this key.
+    This will give you an output as follows where the GPG key ID is `3R11A123YUIA72O10W1V123AP33467T678ACP098`. Copy this key.
 
-```bash
-sec   rsa4096/D24532A121BAC233 2022-07-13 [SC]
-      3R11A123YUIA72O10W1V123AP33467T678ACP098
-uid                 [ultimate] NAME <email@email.com>
-ssb   rsa4096/10A271000P554109 2022-07-13 [E]
-```
+    ```bash
+    sec   rsa4096/D24532A121BAC233 2022-07-13 [SC]
+        3R11A123YUIA72O10W1V123AP33467T678ACP098
+    uid                 [ultimate] NAME <email@email.com>
+    ssb   rsa4096/10A271000P554109 2022-07-13 [E]
+    ```
 
 2. To set your GPG signing key globally in Git run the following command with your own key. If you want to have a signing key only for a specific repository you can leave out the `--global` flag.
 
-```bash
-git config --global user.signingKey YOUR-OWN-GPG-KEY-ID-HERE
-```
+    ```bash
+    git config --global user.signingKey YOUR-OWN-GPG-KEY-ID-HERE
+    ```
 
 3. To sign all commits by default run the following command. If you don't use the `--global` flag you can configure git to sign commits by default only for a specific local repository.
 
@@ -120,9 +120,9 @@ git config --global commit.gpgsign true
 
 1. To find the location of where GPG is installed on your machine run the following command.
 
-```bash
-where gpg
-```
+    ```bash
+    where gpg
+    ```
 
 2. Open GitKraken.
 3. Make sure your current profile is the one you want to attach the GPG key to that we generated earlier. Specifically check the email address.
@@ -149,5 +149,5 @@ where gpg
 
 Sources:
 
--   [https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
--   [https://www.freecodecamp.org/news/what-is-commit-signing-in-git/](https://www.freecodecamp.org/news/what-is-commit-signing-in-git/)
+- [https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+- [https://www.freecodecamp.org/news/what-is-commit-signing-in-git/](https://www.freecodecamp.org/news/what-is-commit-signing-in-git/)

@@ -9,7 +9,7 @@ When trying to change the name of a project in Visual Studio I noticed it wasn't
 
 Supposedly you have a solution structure as follows as opened in Visual Studio:
 
-```
+```txt
 --- Solution 'Solution1'
 ------- ProjectABC
 ------- Project123
@@ -24,7 +24,7 @@ Supposedly you have a solution structure as follows as opened in Visual Studio:
 
 ### Possible errors
 
-**Solution cannot be renamed because solution files with the specified name already exist**
+#### Solution cannot be renamed because solution files with the specified name already exist**
 
 If you get this error in file explorer navigate to the root of your project and find the `.vs` folder. Open this folder and delete the folder with the same name as you want to rename your solution to.
 
@@ -32,4 +32,4 @@ If you get this error in file explorer navigate to the root of your project and 
 
 Sources:
 
--   [https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio](https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio)
+- [https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio](https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio)

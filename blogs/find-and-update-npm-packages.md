@@ -14,31 +14,31 @@ GitHub notifies you when you have dependencies in your project with security vul
 
 5. To check which package or packages that you installed depends on this package run the following command.
 
-```bash
-npm ls NAME-OF-PACKAGE
-```
+    ```bash
+    npm ls NAME-OF-PACKAGE
+    ```
 
 6. To find out what installed packages have newer versions you can run the following command. Note that there is not always a newer version for the parent package you want to update.
 
-```bash
-npm outdated
-```
+    ```bash
+    npm outdated
+    ```
 
 7. To update a package to the latest version you can run the following command.
 
-```bash
-npm update NAME-OF-PACKAGE --save
-```
+    ```bash
+    npm update NAME-OF-PACKAGE --save
+    ```
 
-OR you can also specify a version you want to update to.
+    OR you can also specify a version you want to update to.
 
-```bash
-npm update NAME-OF-PACKAGE@1.0.0 --save-dev
-```
+    ```bash
+    npm update NAME-OF-PACKAGE@1.0.0 --save-dev
+    ```
 
 ---
 
 Sources:
 
--   [https://stackoverflow.com/questions/31923195/how-to-find-reverse-dependencies-on-npm-package](https://stackoverflow.com/questions/31923195/how-to-find-reverse-dependencies-on-npm-package)
--   [https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed](https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed)
+- [https://stackoverflow.com/questions/31923195/how-to-find-reverse-dependencies-on-npm-package](https://stackoverflow.com/questions/31923195/how-to-find-reverse-dependencies-on-npm-package)
+- [https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed](https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed)

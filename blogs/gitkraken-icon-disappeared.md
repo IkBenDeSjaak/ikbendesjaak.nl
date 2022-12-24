@@ -17,4 +17,4 @@ To fix this error first close the GitKraken app. Then you have to delete the old
 
 Sources:
 
--   [https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo](https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo)
+- [https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo](https://help.gitkraken.com/gitkraken-client/common-issues/#windows-taskbar-icon-is-not-showing-the-gitkraken-logo)
