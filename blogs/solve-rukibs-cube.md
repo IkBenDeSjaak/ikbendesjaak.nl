@@ -54,7 +54,7 @@ The fifth step is to line up the edges correctly. Try to line up as many edges p
 
 ![Cube for illustration on how to perform RURURU2RU algorithm](/images/rubiks/rururu2ru.svg)
 
-If you want to flip two edges (Up Front and Up Left) pieces you have to perform the following algorithm: **R U R U R U2 R U**. The 2 after the third U in this algorithm means that you have to flip the Up layer twice instead of once.
+If you want to flip two edges (Up Front and Up Left) pieces you have to perform the following algorithm: **R U R' U R U2 R' U**. The 2 after the third U in this algorithm means that you have to flip the Up layer twice instead of once.
 
 ### 6. Yellow corners on place
 
