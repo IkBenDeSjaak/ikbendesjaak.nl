@@ -52,8 +52,8 @@ function Nav(props) {
                 </li>
                 <li>
                   <a
-                    href='resume.pdf'
-                    target='_blank'
+                    href='https://www.linkedin.com/in/sjaak-kok/'
+                    target='_self'
                     className={styles.resume}
                   >
                     Resume
