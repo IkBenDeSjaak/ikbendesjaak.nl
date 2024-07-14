@@ -13,9 +13,11 @@ People go on vacation sometimes and it happens often that people forget to take 
   - Comb
   - Shampoo
   - Deodorant
+  - Perfume
   - Hairspray
   - Razor blade
   - Shaving foam
+  - Glasses case (optional)
   - Sunscreen (optional)
 - Phone
 - Phone charger
@@ -45,5 +47,7 @@ People go on vacation sometimes and it happens often that people forget to take 
   - Jeans
   - Swimwear (optional)
 - Travel plug (optional)
-- Small bag
+- Backpack
 - Tickets (plane, hotel, etc.)
+- Plastic bags
+- Travel game
