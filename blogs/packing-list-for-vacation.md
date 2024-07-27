@@ -7,6 +7,31 @@ description: "People go on vacation sometimes and it happens often that people f
 
 People go on vacation sometimes and it happens often that people forget to take something with them on vacation. To prevent that to happen here is a little checklist so for future vacations you won't forget anything!
 
+- Backpack
+- Phone
+- Phone charger
+- Powerbank
+- Wallet
+  - Cash
+  - ID card
+  - Debit card
+  - Credit card
+  - Driving license
+  - Passport (optional)
+- Earphones
+- Travel game
+- Handkerchief (optional)
+- Note with important phone numbers
+- Plasters
+- Paracetamol
+- Pen and notebook
+- Tissues
+- Water bottle
+- Spare glasses + case (optional)
+- Sunglasses (optional)
+- Face masks (optional)
+- Snacks (optional)
+- Tablet + charger (optional)
 - Toiletry bag
   - Toothbrush
   - Toothpaste
@@ -19,25 +44,7 @@ People go on vacation sometimes and it happens often that people forget to take 
   - Shaving foam
   - Glasses case (optional)
   - Sunscreen (optional)
-- Phone
-- Phone charger
-- Tablet (optional)
-- Power bank + charger
-- Wallet
-  - Cash
-  - ID card
-  - Debit card
-  - Credit card
-  - Driving license
-  - Passport (optional)
-- Earphones
-- Pen and notebook
-- Camera (optional)
-- Tissues
-- Water bottle
-- Face masks (optional)
-- Sunglasses (optional)
-- Snacks
+- Ziplock
 - Clothes
   - T-shirts (shirt for every day)
   - Shorts
@@ -46,8 +53,9 @@ People go on vacation sometimes and it happens often that people forget to take 
   - Sweaters
   - Jeans
   - Swimwear (optional)
-- Travel plug (optional)
-- Backpack
 - Tickets (plane, hotel, etc.)
 - Plastic bags
-- Travel game
+- Luggage label
+- Small towel (optional)
+- Travel plug (optional)
+- Camera (optional)
