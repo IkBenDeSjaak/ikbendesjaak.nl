@@ -1,6 +1,6 @@
 import React from 'react'
-import IconButton from '@material-ui/core/IconButton'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
+import IconButton from '@mui/material/IconButton'
+import Brightness2Icon from '@mui/icons-material/Brightness2';
 
 import styles from './DarkModeToggleButton.module.scss'
 

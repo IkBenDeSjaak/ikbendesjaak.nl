@@ -1,5 +1,6 @@
 import React from 'react'
-import Icon from '@material-ui/core/Icon'
+import Icon from '@mui/material/Icon';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from './ProjectCard.module.scss'
 
 const ProjectCard = (props) => {

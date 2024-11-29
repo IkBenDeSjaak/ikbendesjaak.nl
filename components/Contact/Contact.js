@@ -1,14 +1,14 @@
 import React from 'react'
-// import IconButton from "@material-ui/core/IconButton";
-import MailIcon from '@material-ui/icons/Mail'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import InstagramIcon from '@material-ui/icons/Instagram'
+// import IconButton from '@mui/material/IconButton'
+import MailIcon from '@mui/icons-material/Mail'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import InstagramIcon from '@mui/icons-material/Instagram';
 import Title from '../shared/Title/Title'
 // import DonateButton from "../DonateButton/DonateButton";
 
 import styles from './Contact.module.scss'
 
-function Contact () {
+function Contact() {
   return (
     <div className={styles.contact} id='contact'>
       <Title title='CONTACT' />
