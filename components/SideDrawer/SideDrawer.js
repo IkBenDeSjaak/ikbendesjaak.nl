@@ -23,31 +23,31 @@ const SideDrawer = (props) => {
               scrollToTop()
             }}
           >
-            <Link href='/'><a>Home</a></Link>
+            <Link href='/'>Home</Link>
           </li>
           <li onClick={props.handleCloseDrawer}>
             <Link href='/#about'>
-              <a>About</a>
+              About
             </Link>
           </li>
           <li onClick={props.handleCloseDrawer}>
             <Link href='/#skills'>
-              <a>Skills</a>
+              Skills
             </Link>
           </li>
           <li onClick={props.handleCloseDrawer}>
             <Link href='/#mywork'>
-              <a>My Work</a>
+              My Work
             </Link>
           </li>
           <li onClick={props.handleCloseDrawer}>
             <Link href='/blogs'>
-              <a>Blogs</a>
+              Blogs
             </Link>
           </li>
           <li onClick={props.handleCloseDrawer}>
             <Link href='/#contact'>
-              <a>Contact</a>
+              Contact
             </Link>
           </li>
           <li onClick={props.handleCloseDrawer}>

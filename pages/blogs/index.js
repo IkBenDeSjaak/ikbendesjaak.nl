@@ -27,8 +27,8 @@ export default function Blogs({ allBlogsData }) {
           }
         }).map(({ id, date, title, description }) => (
           <article className={styles.article} key={id}>
-            <Link href={`/blogs/${id}`}>
-              <a className={styles.blogtitle}>{title}</a>
+            <Link href={`/blogs/${id}`} className={styles.blogtitle}>
+              {title}
             </Link>
             <p className={styles.lightText}>
               <Date dateString={date} />

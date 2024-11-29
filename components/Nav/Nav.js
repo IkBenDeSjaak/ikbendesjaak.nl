@@ -18,7 +18,7 @@ function Nav(props) {
           </div>
           <div className={styles.logo}>
             <div onClick={scrollToTop}>
-              <Link href='/'><a>Sjaak Kok</a></Link>
+              <Link href='/'>Sjaak Kok</Link>
               <div className={styles.underline} />
             </div>
           </div>
@@ -27,27 +27,27 @@ function Nav(props) {
               <ul>
                 <li>
                   <Link href='/#about'>
-                    <a>About</a>
+                    About
                   </Link>
                 </li>
                 <li>
                   <Link href='/#skills'>
-                    <a>Skills</a>
+                    Skills
                   </Link>
                 </li>
                 <li>
                   <Link href='/#mywork'>
-                    <a>My Work</a>
+                    My Work
                   </Link>
                 </li>
                 <li>
                   <Link href='/blogs'>
-                    <a>Blogs</a>
+                    Blogs
                   </Link>
                 </li>
                 <li>
                   <Link href='/#contact'>
-                    <a>Contact</a>
+                    Contact
                   </Link>
                 </li>
                 <li>
